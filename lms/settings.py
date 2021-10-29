@@ -34,8 +34,6 @@ LOGS_DIR = os.getenv('LOGS_DIR', LOGS_DIR)
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'kj#)zqd_p%o)bch%i$b5b=5#&3m#8p&p^yuv+g8s76^4wknb!i'
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = SECRET_KEY  # local_settings.py
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -167,16 +165,16 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',  # noqa
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',  # noqa
     },
 ]
 
@@ -278,5 +276,5 @@ CELERY_CACHE_BACKEND = os.getenv(
 DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
 DBBACKUP_STORAGE_OPTIONS = {'location': 'backup/'}
 
-# after migrate 
+# after migrate
 AUTH_USER_MODEL = 'customauth.User'

@@ -19,11 +19,10 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-   
     # prometheus url
     path('', include('django_prometheus.urls')),
 
-    # admin urls 
+    # admin urls
     path(f'{settings.ADMIN_URL}/', admin.site.urls),
 
     # drf api auth
