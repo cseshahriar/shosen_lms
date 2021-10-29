@@ -36,6 +36,8 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractBaseUser):
+    first_name = models.CharField(max_length=100, null=True)
+    last_name = models.CharField(max_length=100, null=True)
     email = models.EmailField(
         verbose_name='email address',
         max_length=255,
@@ -44,6 +46,10 @@ class User(AbstractBaseUser):
     date_of_birth = models.DateField(null=True, blank=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
+    biography = models.TextField(blank=True, null=True)
+    date_joined = models.DateField(auto_now_add=True)
+    last_modified = models.DateField(auto_now=True)
+    image = models.ImageField(upload_to='users/', null=True)
 
     objects = UserManager()
 
