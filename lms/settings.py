@@ -16,7 +16,6 @@ import os
 from lms.local_settings import (
     SECRET_KEY, TEMPLATES_DIR, STATICFILES_DIR, STATIC_DIR, MEDIA_DIR,
     LOGS_DIR, DEBUG, ENABLE_HTTPS, ALLOWED_HOSTS, INTERNAL_IPS, DB_CONFIG,
-    CELERY_BROKER_URL, CELERY_RESULT_BACKEND, CELERY_CACHE_BACKEND,
     CORS_ALLOWED_ORIGINS
 )
 from lms.logging import LOGGING
@@ -34,7 +33,10 @@ LOGS_DIR = os.getenv('LOGS_DIR', LOGS_DIR)
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = SECRET_KEY  # local_settings.py
+# TODO: remove from in production
+SECRET_KEY = "8m678z2i8_+cn(6l)qb_!8-$pf%oorlf6+e)elbs+l4g#*4igl"
+# uncomment in production
+# SECRET_KEY = SECRET_KEY  # local_settings.py  
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', DEBUG)
@@ -86,10 +88,6 @@ PLUGIN_APPS = [
     'django_filters',
     # https://github.com/adamchainz/django-cors-headers
     'corsheaders',
-    # https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html#extensions
-    'django_celery_results',
-    # https://docs.celeryproject.org/en/stable/userguide/periodic-tasks.html
-    'django_celery_beat',
     # https://django-dbbackup.readthedocs.io/
     'dbbackup',
     # https://pypi.org/project/django-phonenumber-field/
@@ -245,19 +243,6 @@ try:  # optional settings import
 except ImportError:  # use default if not defined in local_settings
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-# Celery
-# https://docs.celeryproject.org/en/stable/userguide/configuration.html#configuration-and-defaults
-CELERY_BROKER_URL = os.getenv(
-    'CELERY_BROKER_URL', CELERY_BROKER_URL
-)
-
-# https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html#extensions
-CELERY_RESULT_BACKEND = os.getenv(
-    'CELERY_RESULT_BACKEND', CELERY_RESULT_BACKEND
-)
-CELERY_CACHE_BACKEND = os.getenv(
-    'CELERY_CACHE_BACKEND', CELERY_CACHE_BACKEND
-)
 
 # DbBackup --------------------------------------------------------------------
 # https://django-dbbackup.readthedocs.io/
