@@ -98,7 +98,7 @@ PLUGIN_APPS = [
 
 # add project applications here
 PROJECT_APPS = [
-    'apps.customauth',
+    'customauth',
 ]
 
 # consolidate all installed applications here
@@ -141,7 +141,7 @@ TEMPLATES = [
 # https://docs.djangoproject.com/en/3.2/releases/3.2/#customizing-type-of-auto-created-primary-keys
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'  # suppress model warning
 
-WSGI_APPLICATION = 'core.wsgi.application'
+WSGI_APPLICATION = 'lms.wsgi.application'
 
 LOGIN_URL = '/auth/login/'
 LOGIN_REDIRECT_URL = 'index'

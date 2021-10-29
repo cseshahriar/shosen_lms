@@ -1,2 +1,2 @@
 # shosen_lms
-Learning Management System
+Learning Management System(Pet project)
