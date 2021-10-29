@@ -36,7 +36,7 @@ LOGS_DIR = os.getenv('LOGS_DIR', LOGS_DIR)
 # TODO: remove from in production
 SECRET_KEY = "8m678z2i8_+cn(6l)qb_!8-$pf%oorlf6+e)elbs+l4g#*4igl"
 # uncomment in production
-# SECRET_KEY = SECRET_KEY  # local_settings.py  
+# SECRET_KEY = SECRET_KEY  # local_settings.py
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', DEBUG)

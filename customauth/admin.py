@@ -67,13 +67,9 @@ class UserAdmin(BaseUserAdmin):
         ('Dates', {'fields': ('last_login', 'last_modified', 'date_joined')})
     )
     add_fieldsets = (
-        (None, {
-            'classes': ('wide', ),
-            'fields': (
-                'email', 'first_name', 'last_name', 'phone',
-                'password1', 'password2'
-            )
-        }),
+        (None, {'fields': ('first_name', 'last_name', 'phone', 'email','password')}),  # noqa
+        ('Permissions', {'fields': ('groups', 'user_permissions')}),
+        ('Roles', {'fields': ('is_staff', 'is_superuser', 'is_active')}),
     )
     readonly_fields = ('last_login', 'last_modified', 'date_joined')
     search_fields = ('id', 'email', 'first_name', 'last_name', 'phone')
