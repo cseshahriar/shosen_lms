@@ -100,6 +100,7 @@ PLUGIN_APPS = [
 PROJECT_APPS = [
     'customauth',
     'utilities.apps.UtilitiesConfig',
+    'courses.apps.CoursesConfig',
 ]
 
 # consolidate all installed applications here
