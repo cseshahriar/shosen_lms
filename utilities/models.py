@@ -22,9 +22,6 @@ class AbstractBaseFields(models.Model):
     is_active = models.BooleanField(
         _('Is Active'), default=False
     )
-    is_deleted = models.BooleanField(
-        _('Is Deleted'), default=False
-    )
     created = models.DateTimeField(
         _('Created At'), auto_now_add=True, null=True
     )
