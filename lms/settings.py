@@ -92,6 +92,8 @@ PLUGIN_APPS = [
     'dbbackup',
     # https://pypi.org/project/django-phonenumber-field/
     'phonenumber_field',
+    # https://django-extensions.readthedocs.io/en/latest/index.html
+    'django_extensions',
 ]
 
 # add project applications here
