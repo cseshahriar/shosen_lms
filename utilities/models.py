@@ -1,5 +1,47 @@
+import logging
+
+# DJANGO IMPORTS
 from django.db import models
+from django.utils.translation import gettext_lazy as _
+from django.conf import settings
 from customauth.models import User
+
+logger = logging.getLogger(__name__)
+
+
+class AbstractBaseFields(models.Model):
+    """ abstract base models """
+    created_user = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
+        blank=True, null=True, related_name="%(app_label)s_%(class)s_createdby"
+    )
+    updated_user = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
+        blank=True, null=True, related_name="%(app_label)s_%(class)s_updated"
+    )
+    is_active = models.BooleanField(
+        _('Is Active'), default=False
+    )
+    is_deleted = models.BooleanField(
+        _('Is Deleted'), default=False
+    )
+    created = models.DateTimeField(
+        _('Created At'), auto_now_add=True, null=True
+    )
+    updated = models.DateTimeField(
+        _('Last Updated'), auto_now=True, null=True
+    )
+
+    def make_deactive(self):
+        self.is_active = False
+        self.save()
+
+    def make_active(self):
+        self.is_active = True
+        self.save()
+
+    class Meta:
+        abstract = True
 
 
 class Social(models.Model):
