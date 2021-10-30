@@ -58,3 +58,12 @@ class Social(models.Model):
 
     def __str__(self):
         return f"{self.user} {self.platform}"
+
+
+class Language(models.Model):
+    name = models.CharField(max_length=255)
+    code = models.CharField(max_length=3)
+    is_active = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.name

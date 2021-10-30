@@ -94,6 +94,7 @@ PLUGIN_APPS = [
     'phonenumber_field',
     # https://django-extensions.readthedocs.io/en/latest/index.html
     'django_extensions',
+    'ckeditor',
 ]
 
 # add project applications here
