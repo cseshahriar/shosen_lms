@@ -97,6 +97,7 @@ PLUGIN_APPS = [
 # add project applications here
 PROJECT_APPS = [
     'customauth',
+    'utilities.apps.UtilitiesConfig',
 ]
 
 # consolidate all installed applications here
