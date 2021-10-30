@@ -1,0 +1,1006 @@
+2021-10-29 15:16:50,241 INFO autoreload 9749 139863340586816 Watching for file changes with StatReloader
+2021-10-29 15:37:21,109 INFO autoreload 14362 139981782386496 Watching for file changes with StatReloader
+2021-10-29 15:38:07,217 INFO autoreload 14544 139829980190528 Watching for file changes with StatReloader
+2021-10-29 15:39:52,227 INFO autoreload 14997 140430053095232 Watching for file changes with StatReloader
+2021-10-29 15:40:43,798 INFO autoreload 14997 140430053095232 /home/shosen/projects/shosen_lms/customauth/apps.py changed, reloading.
+2021-10-29 15:40:44,356 INFO autoreload 15156 139740975572800 Watching for file changes with StatReloader
+2021-10-29 15:41:03,510 INFO autoreload 15224 140533883148096 Watching for file changes with StatReloader
+2021-10-29 15:43:12,603 INFO autoreload 15224 140533883148096 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 15:43:13,224 INFO autoreload 15534 140178896144192 Watching for file changes with StatReloader
+2021-10-29 15:44:20,232 INFO autoreload 15534 140178896144192 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 15:44:20,851 INFO autoreload 15629 140666587629376 Watching for file changes with StatReloader
+2021-10-29 15:44:27,294 INFO autoreload 15629 140666587629376 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 15:44:27,927 INFO autoreload 15708 140525914552128 Watching for file changes with StatReloader
+2021-10-29 15:44:53,946 INFO autoreload 15895 140464324351808 Watching for file changes with StatReloader
+2021-10-29 15:45:13,370 WARNING log 15895 140464145331968 Not Found: /
+2021-10-29 15:45:13,748 WARNING log 15895 140464136939264 Not Found: /favicon.ico
+2021-10-29 15:45:22,233 WARNING log 15895 140464136939264 Not Found: /favicon.ico
+2021-10-29 15:45:26,028 INFO autoreload 15895 140464324351808 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 15:45:26,668 INFO autoreload 16202 140127600351040 Watching for file changes with StatReloader
+2021-10-29 16:04:27,282 INFO autoreload 17611 140248467560256 Watching for file changes with StatReloader
+2021-10-29 16:04:35,707 WARNING log 16202 140127488513792 Not Found: /
+2021-10-29 16:04:39,389 WARNING log 16202 140127480121088 Not Found: /admin
+2021-10-29 16:04:56,000 WARNING log 16202 140127480121088 Not Found: /favicon.ico
+2021-10-29 16:14:50,173 INFO autoreload 16202 140127600351040 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:14:50,821 INFO autoreload 18811 140516496127808 Watching for file changes with StatReloader
+2021-10-29 16:14:54,735 WARNING base 18811 140516384290560 Session data corrupted
+2021-10-29 16:14:54,779 WARNING base 18811 140516384290560 Session data corrupted
+2021-10-29 16:15:14,069 WARNING base 18811 140516384290560 Session data corrupted
+2021-10-29 16:15:14,926 WARNING log 18811 140516384290560 Not Found: /favicon.ico
+2021-10-29 16:15:39,496 INFO autoreload 18811 140516496127808 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:15:40,163 INFO autoreload 19029 140440665306944 Watching for file changes with StatReloader
+2021-10-29 16:19:21,641 INFO autoreload 19029 140440665306944 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:19:22,238 INFO autoreload 19503 140393114384192 Watching for file changes with StatReloader
+2021-10-29 16:25:49,787 INFO autoreload 19503 140393114384192 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:25:50,376 INFO autoreload 19982 140420541527872 Watching for file changes with StatReloader
+2021-10-29 16:26:46,278 INFO autoreload 19982 140420541527872 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:26:46,901 INFO autoreload 20084 140025275832128 Watching for file changes with StatReloader
+2021-10-29 16:27:52,014 INFO autoreload 20084 140025275832128 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:27:52,644 INFO autoreload 20376 140104292476736 Watching for file changes with StatReloader
+2021-10-29 16:28:22,643 INFO autoreload 20376 140104292476736 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:28:23,249 INFO autoreload 20466 140494454740800 Watching for file changes with StatReloader
+2021-10-29 16:28:27,581 INFO autoreload 20466 140494454740800 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:28:28,160 INFO autoreload 20540 139757754734400 Watching for file changes with StatReloader
+2021-10-29 16:28:34,448 INFO autoreload 20540 139757754734400 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:28:35,072 INFO autoreload 20606 140468151396160 Watching for file changes with StatReloader
+2021-10-29 16:29:12,263 INFO autoreload 20606 140468151396160 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:29:12,849 INFO autoreload 20713 140278830921536 Watching for file changes with StatReloader
+2021-10-29 16:29:31,491 INFO autoreload 20713 140278830921536 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:29:32,061 INFO autoreload 20861 139915680077632 Watching for file changes with StatReloader
+2021-10-29 16:29:51,673 INFO autoreload 20861 139915680077632 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:29:52,286 INFO autoreload 21046 140634576963392 Watching for file changes with StatReloader
+2021-10-29 16:29:59,663 INFO autoreload 21046 140634576963392 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:30:00,251 INFO autoreload 21150 139985865705280 Watching for file changes with StatReloader
+2021-10-29 16:30:23,342 WARNING base 21150 139985753868032 Session data corrupted
+2021-10-29 16:30:23,384 WARNING base 21150 139985753868032 Session data corrupted
+2021-10-29 16:30:43,089 WARNING base 21150 139985515697920 Session data corrupted
+2021-10-29 16:30:47,308 WARNING base 21150 139985515697920 Session data corrupted
+2021-10-29 16:31:23,901 INFO autoreload 21150 139985865705280 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:31:24,512 INFO autoreload 21457 140654638663488 Watching for file changes with StatReloader
+2021-10-29 16:31:41,148 INFO autoreload 21457 140654638663488 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:31:41,733 INFO autoreload 21536 139636782573376 Watching for file changes with StatReloader
+2021-10-29 16:31:55,283 INFO autoreload 21536 139636782573376 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:31:55,940 INFO autoreload 21610 140170760091456 Watching for file changes with StatReloader
+2021-10-29 16:32:13,561 INFO autoreload 21610 140170760091456 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:32:14,200 INFO autoreload 21694 139867219531584 Watching for file changes with StatReloader
+2021-10-29 16:32:55,533 INFO autoreload 21694 139867219531584 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:32:56,167 INFO autoreload 21943 139728592648000 Watching for file changes with StatReloader
+2021-10-29 16:32:58,220 WARNING base 21943 139728413480704 Session data corrupted
+2021-10-29 16:32:58,266 WARNING base 21943 139728413480704 Session data corrupted
+2021-10-29 16:34:18,743 INFO autoreload 21943 139728592648000 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 16:34:19,357 INFO autoreload 22252 140336007829312 Watching for file changes with StatReloader
+2021-10-29 16:34:29,902 INFO autoreload 22252 140336007829312 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 16:34:30,517 INFO autoreload 22352 140640864962368 Watching for file changes with StatReloader
+2021-10-29 16:35:26,407 INFO autoreload 22352 140640864962368 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 16:35:27,002 INFO autoreload 22526 140297511917376 Watching for file changes with StatReloader
+2021-10-29 16:35:30,502 WARNING base 22526 140297399817984 Session data corrupted
+2021-10-29 16:35:47,201 WARNING base 22526 140297399817984 Session data corrupted
+2021-10-29 16:35:51,628 WARNING base 22526 140297399817984 Session data corrupted
+2021-10-29 16:35:54,762 WARNING base 22526 140297399817984 Session data corrupted
+2021-10-29 16:36:09,754 INFO autoreload 22526 140297511917376 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 16:36:10,432 INFO autoreload 22758 140273708595008 Watching for file changes with StatReloader
+2021-10-29 16:37:01,100 INFO autoreload 22758 140273708595008 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:37:01,759 INFO autoreload 22848 139797459351360 Watching for file changes with StatReloader
+2021-10-29 16:37:08,166 INFO autoreload 22848 139797459351360 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:37:08,890 INFO autoreload 22925 140002532628288 Watching for file changes with StatReloader
+2021-10-29 16:37:18,415 INFO autoreload 22925 140002532628288 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:37:19,021 INFO autoreload 23001 140213172160320 Watching for file changes with StatReloader
+2021-10-29 16:40:12,265 INFO autoreload 23001 140213172160320 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:40:12,844 INFO autoreload 23310 140106498058048 Watching for file changes with StatReloader
+2021-10-29 16:40:30,115 INFO autoreload 23310 140106498058048 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:40:30,821 INFO autoreload 23437 140243604690752 Watching for file changes with StatReloader
+2021-10-29 16:40:55,812 INFO autoreload 23437 140243604690752 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:40:56,480 INFO autoreload 23520 139932392937280 Watching for file changes with StatReloader
+2021-10-29 16:42:21,261 INFO autoreload 23520 139932392937280 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:42:21,904 INFO autoreload 23897 140156417038144 Watching for file changes with StatReloader
+2021-10-29 16:42:57,245 INFO autoreload 23897 140156417038144 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:42:57,936 INFO autoreload 24023 140368634095424 Watching for file changes with StatReloader
+2021-10-29 16:43:21,931 INFO autoreload 24023 140368634095424 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:43:22,545 INFO autoreload 24126 140034473187136 Watching for file changes with StatReloader
+2021-10-29 16:43:33,084 INFO autoreload 24126 140034473187136 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:43:33,728 INFO autoreload 24193 140459082508096 Watching for file changes with StatReloader
+2021-10-29 16:43:40,215 INFO autoreload 24193 140459082508096 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:43:40,844 INFO autoreload 24278 140712817403712 Watching for file changes with StatReloader
+2021-10-29 16:43:59,616 INFO autoreload 24278 140712817403712 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:44:00,217 INFO autoreload 24335 139697034463040 Watching for file changes with StatReloader
+2021-10-29 16:44:17,826 INFO autoreload 24335 139697034463040 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:44:18,458 INFO autoreload 24428 140231286519616 Watching for file changes with StatReloader
+2021-10-29 16:45:00,686 INFO autoreload 24428 140231286519616 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:45:01,258 INFO autoreload 24591 139978900641600 Watching for file changes with StatReloader
+2021-10-29 16:45:56,099 INFO autoreload 24591 139978900641600 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:45:56,756 INFO autoreload 24767 139675021567808 Watching for file changes with StatReloader
+2021-10-29 16:46:22,854 INFO autoreload 24767 139675021567808 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:46:23,489 INFO autoreload 24891 140216288847680 Watching for file changes with StatReloader
+2021-10-29 16:47:05,817 INFO autoreload 24891 140216288847680 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:47:06,395 INFO autoreload 24991 139769440638784 Watching for file changes with StatReloader
+2021-10-29 16:47:17,969 INFO autoreload 24991 139769440638784 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:47:18,568 INFO autoreload 25058 140447559518016 Watching for file changes with StatReloader
+2021-10-29 16:47:29,085 INFO autoreload 25058 140447559518016 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:47:29,702 INFO autoreload 25123 140217425364800 Watching for file changes with StatReloader
+2021-10-29 16:48:10,333 INFO autoreload 25123 140217425364800 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:48:10,994 INFO autoreload 25309 139852428678976 Watching for file changes with StatReloader
+2021-10-29 16:48:16,411 INFO autoreload 25309 139852428678976 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:48:17,004 INFO autoreload 25354 140190601762624 Watching for file changes with StatReloader
+2021-10-29 16:49:32,447 INFO autoreload 25354 140190601762624 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:49:33,105 INFO autoreload 25466 140280374445888 Watching for file changes with StatReloader
+2021-10-29 16:53:12,455 INFO autoreload 25466 140280374445888 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:53:13,104 INFO autoreload 26117 140135180793664 Watching for file changes with StatReloader
+2021-10-29 16:53:17,444 INFO autoreload 26117 140135180793664 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:53:18,046 INFO autoreload 26175 140594641610560 Watching for file changes with StatReloader
+2021-10-29 16:53:50,377 INFO autoreload 26175 140594641610560 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 16:53:51,076 INFO autoreload 26365 140375663830848 Watching for file changes with StatReloader
+2021-10-29 16:56:25,563 INFO autoreload 26365 140375663830848 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:56:26,167 INFO autoreload 26794 139725857998656 Watching for file changes with StatReloader
+2021-10-29 16:56:56,172 INFO autoreload 26794 139725857998656 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 16:56:56,822 INFO autoreload 26940 139663781156672 Watching for file changes with StatReloader
+2021-10-29 17:02:13,009 INFO autoreload 26940 139663781156672 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:02:13,646 INFO autoreload 27608 139732769027904 Watching for file changes with StatReloader
+2021-10-29 17:03:33,112 INFO autoreload 27608 139732769027904 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:03:33,763 INFO autoreload 27783 140003176929088 Watching for file changes with StatReloader
+2021-10-29 17:06:25,229 INFO autoreload 27783 140003176929088 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:06:25,853 INFO autoreload 28345 140492978743104 Watching for file changes with StatReloader
+2021-10-29 17:06:44,589 INFO autoreload 28345 140492978743104 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:06:45,166 INFO autoreload 28432 140140106995520 Watching for file changes with StatReloader
+2021-10-29 17:07:32,516 INFO autoreload 28432 140140106995520 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:07:33,156 INFO autoreload 28541 140286802609984 Watching for file changes with StatReloader
+2021-10-29 17:07:56,979 INFO autoreload 28541 140286802609984 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:07:57,567 INFO autoreload 28673 139686084740928 Watching for file changes with StatReloader
+2021-10-29 17:08:19,463 INFO autoreload 28673 139686084740928 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:08:20,080 INFO autoreload 28744 139843536942912 Watching for file changes with StatReloader
+2021-10-29 17:08:27,467 INFO autoreload 28744 139843536942912 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:08:28,109 INFO autoreload 28812 140203195180864 Watching for file changes with StatReloader
+2021-10-29 17:09:29,086 INFO autoreload 28812 140203195180864 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:09:29,687 INFO autoreload 28985 140396690376512 Watching for file changes with StatReloader
+2021-10-29 17:10:00,797 INFO autoreload 28985 140396690376512 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:10:01,419 INFO autoreload 29120 140216859748160 Watching for file changes with StatReloader
+2021-10-29 17:10:18,028 INFO autoreload 29120 140216859748160 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 17:10:18,632 INFO autoreload 29196 140671744014144 Watching for file changes with StatReloader
+2021-10-29 17:10:34,298 INFO autoreload 29196 140671744014144 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 17:10:34,943 INFO autoreload 29264 139661284702016 Watching for file changes with StatReloader
+2021-10-29 17:11:15,566 INFO autoreload 29539 140170557761344 Watching for file changes with StatReloader
+2021-10-29 17:11:38,540 INFO autoreload 29539 140170557761344 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:11:39,261 INFO autoreload 29712 140290592941888 Watching for file changes with StatReloader
+2021-10-29 17:12:08,457 INFO autoreload 29712 140290592941888 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:12:09,087 INFO autoreload 29901 140598361937728 Watching for file changes with StatReloader
+2021-10-29 17:12:27,155 INFO autoreload 29901 140598361937728 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:12:27,791 INFO autoreload 30040 140298229622592 Watching for file changes with StatReloader
+2021-10-29 17:14:48,122 INFO autoreload 30040 140298229622592 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:14:48,760 INFO autoreload 30555 140239819192128 Watching for file changes with StatReloader
+2021-10-29 17:15:11,722 INFO autoreload 30555 140239819192128 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:15:12,300 INFO autoreload 30656 140109948684096 Watching for file changes with StatReloader
+2021-10-29 17:15:15,017 ERROR log 30656 140109836584704 Internal Server Error: /manage/customauth/user/1/change/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_staff) specified for User
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (is_staff) specified for User. Check fields/fieldsets/exclude attributes of class UserAdmin.
+2021-10-29 17:15:29,109 INFO autoreload 30656 140109948684096 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:15:29,700 INFO autoreload 30756 140126594496320 Watching for file changes with StatReloader
+2021-10-29 17:16:10,044 INFO autoreload 30756 140126594496320 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:16:10,705 INFO autoreload 30908 139919108548416 Watching for file changes with StatReloader
+2021-10-29 17:16:27,463 INFO autoreload 30908 139919108548416 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:16:28,065 INFO autoreload 31058 140667275532096 Watching for file changes with StatReloader
+2021-10-29 17:16:36,535 INFO autoreload 31058 140667275532096 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:16:37,163 INFO autoreload 31124 140027619178304 Watching for file changes with StatReloader
+2021-10-29 17:17:47,574 INFO autoreload 31124 140027619178304 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:17:48,229 INFO autoreload 31302 140602883643200 Watching for file changes with StatReloader
+2021-10-29 17:18:52,533 INFO autoreload 31302 140602883643200 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:18:53,160 INFO autoreload 31473 140515797907264 Watching for file changes with StatReloader
+2021-10-29 17:19:18,207 INFO autoreload 31473 140515797907264 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:19:18,818 INFO autoreload 31560 139832528168768 Watching for file changes with StatReloader
+2021-10-29 17:20:05,354 INFO autoreload 31560 139832528168768 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:20:06,026 INFO autoreload 31778 139949254240064 Watching for file changes with StatReloader
+2021-10-29 17:20:25,185 INFO autoreload 31778 139949254240064 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:20:25,817 INFO autoreload 31927 140248150599488 Watching for file changes with StatReloader
+2021-10-29 17:22:02,839 INFO autoreload 31927 140248150599488 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:22:03,451 INFO autoreload 32194 140102306780992 Watching for file changes with StatReloader
+2021-10-29 17:24:23,780 INFO autoreload 32194 140102306780992 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:24:24,401 INFO autoreload 32402 140162040416064 Watching for file changes with StatReloader
+2021-10-29 17:25:49,221 INFO autoreload 32402 140162040416064 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:25:49,968 INFO autoreload 32697 140483211446080 Watching for file changes with StatReloader
+2021-10-29 17:26:21,099 INFO autoreload 32697 140483211446080 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:26:21,764 INFO autoreload 32865 140507905201984 Watching for file changes with StatReloader
+2021-10-29 17:30:18,746 INFO autoreload 32865 140507905201984 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:30:19,370 INFO autoreload 33283 140219683055424 Watching for file changes with StatReloader
+2021-10-29 17:30:27,817 INFO autoreload 33283 140219683055424 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:30:28,423 INFO autoreload 33372 140037522757440 Watching for file changes with StatReloader
+2021-10-29 17:30:45,344 INFO autoreload 33372 140037522757440 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:30:46,027 INFO autoreload 33449 140420225558336 Watching for file changes with StatReloader
+2021-10-29 17:31:53,633 INFO autoreload 33449 140420225558336 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:31:54,263 INFO autoreload 33624 140329311823680 Watching for file changes with StatReloader
+2021-10-29 17:36:07,866 INFO autoreload 33624 140329311823680 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:36:08,496 INFO autoreload 34016 139970943510336 Watching for file changes with StatReloader
+2021-10-29 17:36:41,843 INFO autoreload 34016 139970943510336 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:36:42,486 INFO autoreload 34170 139690297096000 Watching for file changes with StatReloader
+2021-10-29 17:41:36,526 INFO autoreload 34170 139690297096000 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:41:37,137 INFO autoreload 35165 140274613536576 Watching for file changes with StatReloader
+2021-10-29 17:42:00,518 INFO autoreload 35165 140274613536576 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:42:01,072 INFO autoreload 35252 139920608106304 Watching for file changes with StatReloader
+2021-10-29 17:42:33,844 INFO autoreload 35252 139920608106304 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:42:34,532 INFO autoreload 35447 140437070870336 Watching for file changes with StatReloader
+2021-10-29 17:43:20,898 INFO autoreload 35447 140437070870336 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:43:21,504 INFO autoreload 35579 139649590126400 Watching for file changes with StatReloader
+2021-10-29 17:44:19,638 INFO autoreload 35579 139649590126400 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:44:20,236 INFO autoreload 35701 139776171710272 Watching for file changes with StatReloader
+2021-10-29 17:46:01,291 INFO autoreload 35701 139776171710272 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:46:01,956 INFO autoreload 36032 140683639666496 Watching for file changes with StatReloader
+2021-10-29 17:46:29,931 INFO autoreload 36032 140683639666496 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:46:30,562 INFO autoreload 36138 140311919408960 Watching for file changes with StatReloader
+2021-10-29 17:48:41,363 INFO autoreload 36138 140311919408960 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:48:41,944 INFO autoreload 36630 140302444472128 Watching for file changes with StatReloader
+2021-10-29 17:49:16,216 INFO autoreload 36630 140302444472128 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:49:16,797 INFO autoreload 36719 140036165355328 Watching for file changes with StatReloader
+2021-10-29 17:49:25,091 INFO autoreload 36719 140036165355328 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:49:25,646 INFO autoreload 36784 140677449602880 Watching for file changes with StatReloader
+2021-10-29 17:49:39,976 INFO autoreload 36784 140677449602880 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:49:40,534 INFO autoreload 36889 140213866399552 Watching for file changes with StatReloader
+2021-10-29 17:49:58,978 INFO autoreload 36889 140213866399552 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:49:59,579 INFO autoreload 36961 140140138952512 Watching for file changes with StatReloader
+2021-10-29 17:50:18,013 INFO autoreload 36961 140140138952512 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:50:18,571 INFO autoreload 37043 140361769850688 Watching for file changes with StatReloader
+2021-10-29 17:50:51,200 INFO autoreload 37043 140361769850688 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:50:52,076 INFO autoreload 37164 139737813129024 Watching for file changes with StatReloader
+2021-10-29 17:51:12,743 INFO autoreload 37164 139737813129024 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:51:13,347 INFO autoreload 37342 140207989872448 Watching for file changes with StatReloader
+2021-10-29 17:52:07,925 INFO autoreload 37486 139650004969280 Watching for file changes with StatReloader
+2021-10-29 17:52:20,098 INFO autoreload 37538 139710808999744 Watching for file changes with StatReloader
+2021-10-29 17:52:33,623 INFO autoreload 37538 139710808999744 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:52:34,202 INFO autoreload 37611 140099434116928 Watching for file changes with StatReloader
+2021-10-29 17:52:56,935 INFO autoreload 37611 140099434116928 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:52:57,485 INFO autoreload 37683 139713325766464 Watching for file changes with StatReloader
+2021-10-29 17:53:07,804 INFO autoreload 37683 139713325766464 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 17:53:08,365 INFO autoreload 37749 140357281929024 Watching for file changes with StatReloader
+2021-10-29 17:53:13,528 ERROR log 37749 140357102642944 Internal Server Error: /manage/customauth/user/1/change/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:53:19,220 ERROR log 37749 140357102642944 Internal Server Error: /manage/customauth/user/1/change/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:53:22,309 ERROR log 37749 140357102642944 Internal Server Error: /manage/customauth/user/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:53:31,715 ERROR log 37749 140357102642944 Internal Server Error: /manage/customauth/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:54:09,288 ERROR log 37749 140357102642944 Internal Server Error: /manage/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:54:14,332 ERROR log 37749 140357102642944 Internal Server Error: /manage/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 221, in inner
+    if not self.has_permission(request):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 195, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 76, in is_staff
+    return self.is_staff
+  [Previous line repeated 924 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 17:54:31,976 INFO autoreload 38156 140223933867840 Watching for file changes with StatReloader
+2021-10-29 17:55:00,743 INFO autoreload 38368 140269907973952 Watching for file changes with StatReloader
+2021-10-29 17:55:23,619 INFO autoreload 38368 140269907973952 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:55:24,264 INFO autoreload 38494 139901806208832 Watching for file changes with StatReloader
+2021-10-29 17:55:33,735 INFO autoreload 38494 139901806208832 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:55:34,340 INFO autoreload 38558 140606929971008 Watching for file changes with StatReloader
+2021-10-29 17:57:06,275 INFO autoreload 39975 140389342312256 Watching for file changes with StatReloader
+2021-10-29 17:58:24,016 INFO autoreload 39975 140389342312256 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:58:24,627 INFO autoreload 40363 140374333859648 Watching for file changes with StatReloader
+2021-10-29 17:59:00,993 INFO autoreload 40363 140374333859648 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:59:01,594 INFO autoreload 40516 140661529626432 Watching for file changes with StatReloader
+2021-10-29 17:59:18,396 INFO autoreload 40516 140661529626432 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 17:59:19,067 INFO autoreload 40592 140019774441280 Watching for file changes with StatReloader
+2021-10-29 18:01:34,916 INFO autoreload 41218 140199519582016 Watching for file changes with StatReloader
+2021-10-29 18:01:49,411 INFO autoreload 41345 140247864284992 Watching for file changes with StatReloader
+2021-10-29 18:06:29,868 INFO autoreload 43810 140376130189120 Watching for file changes with StatReloader
+2021-10-29 18:12:50,448 INFO autoreload 44770 140153092638528 Watching for file changes with StatReloader
+2021-10-29 18:15:55,994 INFO autoreload 45588 140691275167552 Watching for file changes with StatReloader
+2021-10-29 18:15:59,652 WARNING log 45588 140691103729408 Not Found: /
+2021-10-29 18:20:23,055 INFO autoreload 46896 140471252027200 Watching for file changes with StatReloader
+2021-10-29 18:27:38,474 INFO autoreload 46896 140471252027200 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:27:38,949 INFO autoreload 48170 140538155571008 Watching for file changes with StatReloader
+2021-10-29 18:27:44,351 INFO autoreload 48170 140538155571008 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:27:44,872 INFO autoreload 48231 140021136906048 Watching for file changes with StatReloader
+2021-10-29 18:28:06,853 INFO autoreload 48231 140021136906048 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:28:07,322 INFO autoreload 48316 139877622552384 Watching for file changes with StatReloader
+2021-10-29 18:28:30,403 INFO autoreload 48316 139877622552384 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:28:30,855 INFO autoreload 48426 140008539031360 Watching for file changes with StatReloader
+2021-10-29 18:28:39,371 INFO autoreload 48426 140008539031360 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:28:39,878 INFO autoreload 48490 140561538271040 Watching for file changes with StatReloader
+2021-10-29 18:29:20,635 INFO autoreload 48651 139646305773376 Watching for file changes with StatReloader
+2021-10-29 18:30:56,438 INFO autoreload 48490 140561538271040 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:30:56,893 INFO autoreload 48971 139772445697856 Watching for file changes with StatReloader
+2021-10-29 18:31:02,213 INFO autoreload 48971 139772445697856 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:31:02,678 INFO autoreload 49034 139995830826816 Watching for file changes with StatReloader
+2021-10-29 18:31:13,226 INFO autoreload 49034 139995830826816 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:31:13,676 INFO autoreload 49100 140097327863616 Watching for file changes with StatReloader
+2021-10-29 18:31:58,652 INFO autoreload 49100 140097327863616 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:31:59,113 INFO autoreload 49198 139747976554304 Watching for file changes with StatReloader
+2021-10-29 18:35:56,106 INFO autoreload 49198 139747976554304 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:35:56,581 INFO autoreload 49701 140225866426176 Watching for file changes with StatReloader
+2021-10-29 18:38:12,856 INFO autoreload 49701 140225866426176 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:38:13,366 INFO autoreload 49943 140411002951488 Watching for file changes with StatReloader
+2021-10-29 18:38:40,755 INFO autoreload 49943 140411002951488 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:38:41,212 INFO autoreload 50027 140524016498496 Watching for file changes with StatReloader
+2021-10-29 18:39:07,350 INFO autoreload 50027 140524016498496 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:39:07,931 INFO autoreload 50108 139804711679808 Watching for file changes with StatReloader
+2021-10-29 18:39:14,337 INFO autoreload 50108 139804711679808 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:39:14,819 INFO autoreload 50181 139717508560704 Watching for file changes with StatReloader
+2021-10-29 18:39:48,110 INFO autoreload 50181 139717508560704 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:39:48,595 INFO autoreload 50410 139643976939328 Watching for file changes with StatReloader
+2021-10-29 18:40:05,390 INFO autoreload 50410 139643976939328 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:40:05,913 INFO autoreload 50481 140489611650880 Watching for file changes with StatReloader
+2021-10-29 18:40:23,716 INFO autoreload 50481 140489611650880 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:40:24,204 INFO autoreload 50554 140319222699840 Watching for file changes with StatReloader
+2021-10-29 18:40:27,566 INFO autoreload 50554 140319222699840 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:40:28,088 INFO autoreload 50621 140372061509440 Watching for file changes with StatReloader
+2021-10-29 18:40:36,561 INFO autoreload 50621 140372061509440 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:40:37,000 INFO autoreload 50690 139892604565312 Watching for file changes with StatReloader
+2021-10-29 18:41:14,904 INFO autoreload 50690 139892604565312 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:41:15,400 INFO autoreload 50870 139779345106752 Watching for file changes with StatReloader
+2021-10-29 18:41:30,282 ERROR log 50870 139779147024128 Internal Server Error: /manage/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 206, in clean
+    self.confirm_login_allowed(self.user_cache)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/forms.py", line 21, in confirm_login_allowed
+    if not user.is_staff:
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 87, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 87, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 87, in is_staff
+    return self.is_staff
+  [Previous line repeated 910 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 18:41:33,371 WARNING log 50870 139779147024128 Not Found: /favicon.ico
+2021-10-29 18:43:57,609 INFO autoreload 50870 139779345106752 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:43:58,084 INFO autoreload 51190 139819567474496 Watching for file changes with StatReloader
+2021-10-29 18:44:02,369 INFO autoreload 51190 139819567474496 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:44:02,859 INFO autoreload 51242 139960556808000 Watching for file changes with StatReloader
+2021-10-29 18:45:41,867 INFO autoreload 51242 139960556808000 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:45:42,375 INFO autoreload 51442 140488275679040 Watching for file changes with StatReloader
+2021-10-29 18:45:48,824 INFO autoreload 51442 140488275679040 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:45:49,279 INFO autoreload 51514 139813025560384 Watching for file changes with StatReloader
+2021-10-29 18:46:26,924 INFO autoreload 51514 139813025560384 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:46:27,404 INFO autoreload 51585 139841234900800 Watching for file changes with StatReloader
+2021-10-29 18:46:30,629 INFO autoreload 51585 139841234900800 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:46:31,114 INFO autoreload 51626 139674114463552 Watching for file changes with StatReloader
+2021-10-29 18:46:34,382 INFO autoreload 51626 139674114463552 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:46:34,840 INFO autoreload 51671 140208762836800 Watching for file changes with StatReloader
+2021-10-29 18:46:43,298 INFO autoreload 51671 140208762836800 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:46:43,765 INFO autoreload 51718 139628790662976 Watching for file changes with StatReloader
+2021-10-29 18:47:24,765 INFO autoreload 51718 139628790662976 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:47:25,253 INFO autoreload 51837 140672669189952 Watching for file changes with StatReloader
+2021-10-29 18:47:41,119 INFO autoreload 51837 140672669189952 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:47:41,564 INFO autoreload 51924 139935973058368 Watching for file changes with StatReloader
+2021-10-29 18:47:43,782 INFO autoreload 51924 139935973058368 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:47:44,253 INFO autoreload 51968 139658657183552 Watching for file changes with StatReloader
+2021-10-29 18:47:53,752 INFO autoreload 51968 139658657183552 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:47:54,209 INFO autoreload 52048 139625530324800 Watching for file changes with StatReloader
+2021-10-29 18:47:59,520 INFO autoreload 52048 139625530324800 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:48:00,019 INFO autoreload 52106 139852544304960 Watching for file changes with StatReloader
+2021-10-29 18:48:16,845 INFO autoreload 52106 139852544304960 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:48:17,298 INFO autoreload 52201 140166263342912 Watching for file changes with StatReloader
+2021-10-29 18:48:30,045 INFO autoreload 52201 140166263342912 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:48:30,526 INFO autoreload 52303 139664718763840 Watching for file changes with StatReloader
+2021-10-29 18:48:34,916 INFO autoreload 52303 139664718763840 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:48:35,382 INFO autoreload 52359 139962307204928 Watching for file changes with StatReloader
+2021-10-29 18:48:42,896 ERROR log 52359 139962203162368 Internal Server Error: /manage/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 206, in clean
+    self.confirm_login_allowed(self.user_cache)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/forms.py", line 21, in confirm_login_allowed
+    if not user.is_staff:
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 100, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 100, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 100, in is_staff
+    return self.is_staff
+  [Previous line repeated 910 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 18:49:19,202 INFO autoreload 52359 139962307204928 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:49:19,676 INFO autoreload 52578 140641429178176 Watching for file changes with StatReloader
+2021-10-29 18:49:49,955 INFO autoreload 52578 140641429178176 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:49:50,426 INFO autoreload 52765 139740063233856 Watching for file changes with StatReloader
+2021-10-29 18:49:54,680 INFO autoreload 52765 139740063233856 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:49:55,145 INFO autoreload 52854 140019076134720 Watching for file changes with StatReloader
+2021-10-29 18:54:34,980 INFO autoreload 54571 140000155600704 Watching for file changes with StatReloader
+2021-10-29 18:54:37,103 WARNING log 54571 140000051296000 Not Found: /
+2021-10-29 18:54:57,726 ERROR log 54571 140000042903296 Internal Server Error: /manage/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: customauth_user.is_staff
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 202, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 76, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 205, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/debug_toolbar/panels/sql/tracking.py", line 140, in _record
+    return method(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: customauth_user.is_staff
+2021-10-29 18:54:58,347 WARNING log 54571 140000042903296 Not Found: /favicon.ico
+2021-10-29 18:56:32,550 INFO autoreload 54571 140000155600704 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:56:33,061 INFO autoreload 54961 140074261329728 Watching for file changes with StatReloader
+2021-10-29 18:56:37,292 INFO autoreload 54961 140074261329728 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:56:37,807 INFO autoreload 55023 140376203159360 Watching for file changes with StatReloader
+2021-10-29 18:57:33,731 INFO autoreload 55023 140376203159360 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:57:34,168 INFO autoreload 55250 140546254788416 Watching for file changes with StatReloader
+2021-10-29 18:57:55,674 INFO autoreload 55250 140546254788416 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:57:56,120 INFO autoreload 55381 140675708131136 Watching for file changes with StatReloader
+2021-10-29 18:58:45,968 INFO autoreload 55381 140675708131136 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 18:58:46,424 INFO autoreload 55515 139913848747840 Watching for file changes with StatReloader
+2021-10-29 19:02:17,088 INFO autoreload 56212 139783312762688 Watching for file changes with StatReloader
+2021-10-29 19:03:06,023 INFO autoreload 56212 139783312762688 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:03:06,480 INFO autoreload 56310 140676685621056 Watching for file changes with StatReloader
+2021-10-29 19:03:13,915 ERROR log 56310 140676581316352 Internal Server Error: /manage/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 206, in clean
+    self.confirm_login_allowed(self.user_cache)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/forms.py", line 21, in confirm_login_allowed
+    if not user.is_staff:
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 96, in is_staff
+    return self.staff
+AttributeError: 'User' object has no attribute 'staff'
+2021-10-29 19:03:41,362 INFO autoreload 56310 140676685621056 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:03:41,886 INFO autoreload 56521 140588922595136 Watching for file changes with StatReloader
+2021-10-29 19:03:48,303 INFO autoreload 56521 140588922595136 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:03:48,893 INFO autoreload 56588 140062949508928 Watching for file changes with StatReloader
+2021-10-29 19:03:52,407 ERROR log 56588 140062775834368 Internal Server Error: /manage/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 206, in clean
+    self.confirm_login_allowed(self.user_cache)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/forms.py", line 21, in confirm_login_allowed
+    if not user.is_staff:
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 96, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 96, in is_staff
+    return self.is_staff
+  File "/home/shosen/projects/shosen_lms/customauth/models.py", line 96, in is_staff
+    return self.is_staff
+  [Previous line repeated 910 more times]
+RecursionError: maximum recursion depth exceeded
+2021-10-29 19:04:06,100 INFO autoreload 56588 140062949508928 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:04:06,578 INFO autoreload 56693 139993710495552 Watching for file changes with StatReloader
+2021-10-29 19:04:22,512 INFO autoreload 56693 139993710495552 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:04:22,998 INFO autoreload 56766 140241025972032 Watching for file changes with StatReloader
+2021-10-29 19:04:27,887 WARNING log 56766 140240854492928 Not Found: /
+2021-10-29 19:04:42,124 INFO autoreload 56766 140241025972032 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:04:42,656 INFO autoreload 57034 140398719821632 Watching for file changes with StatReloader
+2021-10-29 19:04:48,087 INFO autoreload 57034 140398719821632 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:04:48,598 INFO autoreload 57100 140070980679488 Watching for file changes with StatReloader
+2021-10-29 19:04:51,902 INFO autoreload 57100 140070980679488 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:04:52,458 INFO autoreload 57132 139834911356736 Watching for file changes with StatReloader
+2021-10-29 19:04:59,942 INFO autoreload 57132 139834911356736 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:05:00,391 INFO autoreload 57194 140259242575680 Watching for file changes with StatReloader
+2021-10-29 19:06:22,215 INFO autoreload 57666 139668848641856 Watching for file changes with StatReloader
+2021-10-29 19:07:59,516 INFO autoreload 58103 140096683435840 Watching for file changes with StatReloader
+2021-10-29 19:08:02,547 WARNING log 58103 140096512014080 Not Found: /
+2021-10-29 19:08:12,687 WARNING log 58103 140096512014080 Not Found: /mange
+2021-10-29 19:10:41,213 INFO autoreload 58103 140096683435840 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:10:41,678 INFO autoreload 58696 139822294275904 Watching for file changes with StatReloader
+2021-10-29 19:10:52,183 INFO autoreload 58696 139822294275904 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:10:52,640 INFO autoreload 58775 139796866840384 Watching for file changes with StatReloader
+2021-10-29 19:10:59,042 INFO autoreload 58775 139796866840384 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:10:59,543 INFO autoreload 58828 140579471472448 Watching for file changes with StatReloader
+2021-10-29 19:11:20,531 INFO autoreload 58828 140579471472448 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:11:21,030 INFO autoreload 58888 140226268219200 Watching for file changes with StatReloader
+2021-10-29 19:11:36,806 INFO autoreload 58888 140226268219200 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:11:37,316 INFO autoreload 58954 140174791255872 Watching for file changes with StatReloader
+2021-10-29 19:11:59,265 INFO autoreload 58954 140174791255872 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:11:59,747 INFO autoreload 59023 140418321278784 Watching for file changes with StatReloader
+2021-10-29 19:12:24,968 INFO autoreload 59023 140418321278784 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:12:25,286 INFO autoreload 59108 140314258741056 Watching for file changes with StatReloader
+2021-10-29 19:12:38,573 INFO autoreload 59108 140314258741056 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:12:38,857 INFO autoreload 59175 140062472763200 Watching for file changes with StatReloader
+2021-10-29 19:13:39,663 INFO autoreload 59175 140062472763200 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:13:39,934 INFO autoreload 59268 140622343206720 Watching for file changes with StatReloader
+2021-10-29 19:13:57,246 INFO autoreload 59268 140622343206720 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:13:57,494 INFO autoreload 59350 139941313046336 Watching for file changes with StatReloader
+2021-10-29 19:14:13,789 INFO autoreload 59350 139941313046336 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:14:14,307 INFO autoreload 59433 140482745501504 Watching for file changes with StatReloader
+2021-10-29 19:14:17,613 INFO autoreload 59433 140482745501504 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:14:18,121 INFO autoreload 59475 140406399055680 Watching for file changes with StatReloader
+2021-10-29 19:14:28,761 INFO autoreload 59475 140406399055680 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:14:29,256 INFO autoreload 59522 140376368334656 Watching for file changes with StatReloader
+2021-10-29 19:14:54,401 INFO autoreload 59522 140376368334656 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:14:54,909 INFO autoreload 59691 140690978527040 Watching for file changes with StatReloader
+2021-10-29 19:16:58,919 INFO autoreload 59691 140690978527040 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:16:59,412 INFO autoreload 59870 140338826577728 Watching for file changes with StatReloader
+2021-10-29 19:17:40,143 INFO autoreload 59870 140338826577728 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:17:40,621 INFO autoreload 60011 140054692325184 Watching for file changes with StatReloader
+2021-10-29 19:17:43,787 INFO autoreload 60011 140054692325184 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:17:44,228 INFO autoreload 62393 140300072675136 Watching for file changes with StatReloader
+2021-10-29 19:18:07,957 INFO autoreload 62393 140300072675136 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:18:08,505 INFO autoreload 63084 139782992824128 Watching for file changes with StatReloader
+2021-10-29 19:18:36,730 INFO autoreload 63084 139782992824128 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:18:37,173 INFO autoreload 63190 139791438624576 Watching for file changes with StatReloader
+2021-10-29 19:18:49,751 INFO autoreload 63190 139791438624576 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:18:50,200 INFO autoreload 63255 140124491441984 Watching for file changes with StatReloader
+2021-10-29 19:19:14,179 INFO autoreload 63255 140124491441984 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:19:14,639 INFO autoreload 63340 140061118277440 Watching for file changes with StatReloader
+2021-10-29 19:19:26,291 INFO autoreload 63340 140061118277440 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:19:26,785 INFO autoreload 63540 139701415651136 Watching for file changes with StatReloader
+2021-10-29 19:19:59,151 WARNING log 63540 139701235934976 Not Found: /favicon.ico
+2021-10-29 19:20:47,200 INFO autoreload 63540 139701415651136 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:20:47,700 INFO autoreload 64043 140007491479360 Watching for file changes with StatReloader
+2021-10-29 19:20:57,206 INFO autoreload 64043 140007491479360 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:20:57,670 INFO autoreload 64164 139662564058944 Watching for file changes with StatReloader
+2021-10-29 19:21:06,093 INFO autoreload 64164 139662564058944 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:21:06,524 INFO autoreload 64238 140690801354560 Watching for file changes with StatReloader
+2021-10-29 19:21:24,341 INFO autoreload 64238 140690801354560 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:21:24,800 INFO autoreload 64327 140447484401472 Watching for file changes with StatReloader
+2021-10-29 19:21:34,307 INFO autoreload 64327 140447484401472 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:21:34,774 INFO autoreload 64443 140419095775040 Watching for file changes with StatReloader
+2021-10-29 19:21:42,176 INFO autoreload 64443 140419095775040 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:21:42,639 INFO autoreload 64560 140176294487872 Watching for file changes with StatReloader
+2021-10-29 19:21:47,971 INFO autoreload 64560 140176294487872 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:21:48,432 INFO autoreload 64641 139932208052032 Watching for file changes with StatReloader
+2021-10-29 19:21:52,755 INFO autoreload 64641 139932208052032 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:21:53,208 INFO autoreload 64701 140060540880704 Watching for file changes with StatReloader
+2021-10-29 19:22:00,639 INFO autoreload 64701 140060540880704 /home/shosen/projects/shosen_lms/customauth/models.py changed, reloading.
+2021-10-29 19:22:01,106 INFO autoreload 64745 140684829054784 Watching for file changes with StatReloader
+2021-10-29 19:22:16,808 INFO autoreload 64745 140684829054784 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 19:22:17,262 INFO autoreload 64866 140433517463360 Watching for file changes with StatReloader
+2021-10-29 19:22:28,820 INFO autoreload 64866 140433517463360 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 19:22:29,293 INFO autoreload 64968 140538838984512 Watching for file changes with StatReloader
+2021-10-29 19:22:33,623 INFO autoreload 64968 140538838984512 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 19:22:34,067 INFO autoreload 65035 140436139620160 Watching for file changes with StatReloader
+2021-10-29 19:24:32,349 INFO autoreload 65035 140436139620160 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:24:32,777 INFO autoreload 65359 140091303413568 Watching for file changes with StatReloader
+2021-10-29 19:26:27,078 INFO autoreload 65359 140091303413568 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:26:27,555 INFO autoreload 65567 139982708762432 Watching for file changes with StatReloader
+2021-10-29 19:26:39,441 INFO autoreload 65567 139982708762432 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:26:39,890 INFO autoreload 65699 139974629152576 Watching for file changes with StatReloader
+2021-10-29 19:26:40,190 ERROR log 65699 139974458734336 Internal Server Error: /manage/customauth/user/add/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/admin.py", line 99, in add_view
+    return self._add_view(request, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/admin.py", line 126, in _add_view
+    return super().add_view(request, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1575, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+ValueError: too many values to unpack (expected 2)
+2021-10-29 19:26:45,399 INFO autoreload 65699 139974629152576 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:26:45,821 INFO autoreload 65758 140003302090560 Watching for file changes with StatReloader
+2021-10-29 19:27:47,301 INFO autoreload 65758 140003302090560 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:27:47,741 INFO autoreload 65833 140368119666496 Watching for file changes with StatReloader
+2021-10-29 19:28:01,585 INFO autoreload 65833 140368119666496 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:28:02,059 INFO autoreload 65947 139742993729344 Watching for file changes with StatReloader
+2021-10-29 19:28:23,021 INFO autoreload 65947 139742993729344 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:28:23,450 INFO autoreload 66017 140688074274624 Watching for file changes with StatReloader
+2021-10-29 19:28:38,159 INFO autoreload 66017 140688074274624 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:28:38,645 INFO autoreload 66133 140374834976576 Watching for file changes with StatReloader
+2021-10-29 19:28:47,076 INFO autoreload 66133 140374834976576 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:28:47,507 INFO autoreload 66204 140483544926016 Watching for file changes with StatReloader
+2021-10-29 19:29:00,083 INFO autoreload 66204 140483544926016 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:29:00,542 INFO autoreload 66309 140198286526272 Watching for file changes with StatReloader
+2021-10-29 19:29:10,112 INFO autoreload 66309 140198286526272 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:29:10,536 INFO autoreload 66410 140464729925440 Watching for file changes with StatReloader
+2021-10-29 19:29:26,207 INFO autoreload 66410 140464729925440 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:29:26,623 INFO autoreload 66506 140173614237504 Watching for file changes with StatReloader
+2021-10-29 19:29:30,877 INFO autoreload 66506 140173614237504 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:29:31,308 INFO autoreload 66553 140385425549120 Watching for file changes with StatReloader
+2021-10-29 19:30:04,584 INFO autoreload 66553 140385425549120 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:30:04,989 INFO autoreload 66709 140278238893888 Watching for file changes with StatReloader
+2021-10-29 19:30:10,352 INFO autoreload 66709 140278238893888 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:30:10,775 INFO autoreload 66767 139872819607360 Watching for file changes with StatReloader
+2021-10-29 19:30:15,046 INFO autoreload 66767 139872819607360 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:30:15,476 INFO autoreload 66812 140051837912896 Watching for file changes with StatReloader
+2021-10-29 19:30:39,478 INFO autoreload 66812 140051837912896 /home/shosen/projects/shosen_lms/customauth/admin.py changed, reloading.
+2021-10-29 19:30:39,904 INFO autoreload 66922 140578399209280 Watching for file changes with StatReloader
+2021-10-29 19:30:52,526 INFO autoreload 66922 140578399209280 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-10-29 19:30:52,946 INFO autoreload 67040 139813690029888 Watching for file changes with StatReloader
