@@ -1,9 +1,11 @@
 from django.db import models
+from django.db.models import Max
 from django.utils.text import slugify
 from django.utils.translation import gettext as _
 from django.db.models.signals import pre_save
-from utilities.models import AbstractBaseFields, Language
+from django.core.validators import RegexValidator
 from django.core.validators import MaxValueValidator, MinValueValidator
+from utilities.models import AbstractBaseFields, Language
 from customauth.models import User
 
 
@@ -166,6 +168,40 @@ class Enrollment(AbstractBaseFields):
 
     def __str__(self):
         return f"{self.student.email} - {self.course.title}"
+
+
+def payment_number():
+    """ Payment number """
+    invoice_id = Payment.objects.aggregate(max_inv=Max('number'))['max_inv']
+    if invoice_id is not None:
+        return invoice_id + 1
+    return 0
+
+
+class Payment(AbstractBaseFields):
+    """ payment model (Instructor) """
+    number = models.PositiveIntegerField(
+        default=payment_number, db_index=True, unique=True, null=True,
+        editable=False
+    )
+    user = models.ForeignKey(
+        User, on_delete=models.PROTECT, related_name='user_payments'
+    )
+    course = models.ForeignKey(
+        Course, on_delete=models.PROTECT, related_name='course_payments'
+    )
+    payment_type = models.CharField(max_length=100)
+    phone = models.CharField(
+        _('Mobile Phone'), max_length=12, blank=True, null=True,
+        validators=[RegexValidator(  # min: 10, max: 12 characters
+            r'^[\d]{10,12}$', message='Format (ex: 0123456789)'
+        )]
+    )
+    amount = models.DecimalField(max_digits=12, decimal_places=2)
+    is_paid = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"{self.user.email} {self.course.title} {self.amount}"
 
 
 # functions
