@@ -98,3 +98,13 @@ class Currency(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class FrontendSetting(models.Model):
+    """ Frontend settings """
+    key = models.CharField(max_length=100, unique=True)
+    value = models.TextField(null=True, blank=True)
+    file = models.FileField(upload_to='frontends/', null=True, blank=True)
+
+    def __str__(self):
+        return self.key
