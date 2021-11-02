@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 from .models import (
-    Category, Course, Requirement, Outcome, Enrollment, Section, Lesson
+    Category, Course, Requirement, Outcome, Enrollment, Section, Lesson,
+    Payment
 )
 
 
@@ -160,4 +161,33 @@ class LessonAdmin(admin.ModelAdmin):
         'section',
         'course',
         'is_free',
+    )
+
+
+@admin.register(Payment)
+class PaymentAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'number',
+        'user',
+        'course',
+        'payment_type',
+        'phone',
+        'amount',
+        'is_paid',
+    )
+    list_filter = (
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'user',
+        'course',
+        'is_paid',
     )
