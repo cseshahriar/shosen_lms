@@ -108,6 +108,53 @@ class Outcome(models.Model):
         return f"{self.course.title} {self.title}"
 
 
+class Section(AbstractBaseFields):
+    course = models.ForeignKey(
+        Course, on_delete=models.PROTECT, related_name='sections'
+    )
+    title = models.CharField(max_length=255)
+    code = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.title
+
+
+class Lesson(AbstractBaseFields):
+    TYPE_CHOICES = [
+        ('youtube', 'Youtube'),
+        ('vimeo', 'Vimeo'),
+        ('html5', 'HTML5'),
+        ('video_file', 'Video File'),
+        ('google_drive', 'Google Drive'),
+        ('document', 'Document'),
+        ('image_file', 'Image File'),
+        ('iframe_embed', 'Iframe Embed'),
+    ]
+    section = models.ForeignKey(
+        Section, on_delete=models.PROTECT, related_name='section_lessions'
+    )
+    title = models.CharField(max_length=255)
+    course = models.ForeignKey(
+        Course, on_delete=models.PROTECT, related_name='lessons'
+    )
+    provider = models.CharField(
+        max_length=30, choices=TYPE_CHOICES, default='youtube'
+    )
+    video_url = models.URLField(null=True, blank=True)
+    file = models.FileField(upload_to='lessons/', null=True, blank=True)
+    duration = models.CharField(max_length=255)
+    summary = models.TextField()
+    order = models.PositiveIntegerField()
+    is_free = models.BooleanField(
+        "Make as free lesson",
+        help_text="Do you want to keep it free as a preview video?",
+        default=False
+    )
+
+    def __str__(self):
+        return self.title
+
+
 class Enrollment(AbstractBaseFields):
     """ Enrollment """
     student = models.ForeignKey(
