@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from .models import Category, Course, Requirement, Outcome
+from .models import Category, Course, Requirement, Outcome, Enrollment
 
 
 @admin.register(Category)
@@ -81,3 +81,26 @@ class RequirementAdmin(admin.ModelAdmin):
 class OutcomeAdmin(admin.ModelAdmin):
     list_display = ('id', 'course', 'title')
     list_filter = ('course',)
+
+
+@admin.register(Enrollment)
+class EnrollmentAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'student',
+        'course',
+    )
+    list_filter = (
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'student',
+        'course',
+    )
