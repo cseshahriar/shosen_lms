@@ -5,6 +5,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from customauth.models import User
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 logger = logging.getLogger(__name__)
 
@@ -67,3 +68,23 @@ class Language(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Coupon(models.Model):
+    """ Coupon model """
+    coupon_code = models.CharField(max_length=100)
+    discount_percentage = models.IntegerField(
+        help_text="The Discount range is 0 to 100.",
+        default=0,
+        validators=[
+            MaxValueValidator(100),
+            MinValueValidator(0)
+        ]
+    )
+    starting_date = models.DateTimeField(null=True)
+    expire_date = models.DateTimeField()
+
+    def __str__(self):
+        return self.coupon_code
+
+
