@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from .models import Social, Language, Coupon
+from .models import Social, Language, Coupon, Currency
 
 
 @admin.register(Social)
@@ -34,3 +34,17 @@ class CouponAdmin(admin.ModelAdmin):
         'expire_date',
     )
     list_filter = ('starting_date', 'expire_date')
+
+
+@admin.register(Currency)
+class CurrencyAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'name',
+        'code',
+        'symbol',
+        'paypal_supported',
+        'stripe_supported',
+    )
+    list_filter = ('paypal_supported', 'stripe_supported')
+    search_fields = ('name',)
