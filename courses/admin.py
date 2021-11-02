@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from .models import Category, Course, Requirement, Outcome, Enrollment
+from .models import (
+    Category, Course, Requirement, Outcome, Enrollment, Section, Lesson
+)
 
 
 @admin.register(Category)
@@ -103,4 +105,59 @@ class EnrollmentAdmin(admin.ModelAdmin):
         'updated',
         'student',
         'course',
+    )
+
+
+@admin.register(Section)
+class SectionAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'course',
+        'title',
+        'code',
+    )
+    list_filter = (
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'course',
+    )
+
+
+@admin.register(Lesson)
+class LessonAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'section',
+        'title',
+        'course',
+        'provider',
+        'video_url',
+        'file',
+        'duration',
+        'summary',
+        'order',
+        'is_free',
+    )
+    list_filter = (
+        'created_user',
+        'updated_user',
+        'is_active',
+        'created',
+        'updated',
+        'section',
+        'course',
+        'is_free',
     )
