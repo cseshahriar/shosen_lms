@@ -86,3 +86,15 @@ class Coupon(models.Model):
 
     def __str__(self):
         return self.coupon_code
+
+
+class Currency(models.Model):
+    """ Currency model """
+    name = models.CharField(max_length=100, unique=True)
+    code = models.CharField(max_length=100, unique=True)
+    symbol = models.ImageField(upload_to='currencies/')
+    paypal_supported = models.BooleanField(default=True)
+    stripe_supported = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.name
