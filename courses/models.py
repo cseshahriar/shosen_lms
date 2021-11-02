@@ -4,6 +4,7 @@ from django.utils.translation import gettext as _
 from django.db.models.signals import pre_save
 from utilities.models import AbstractBaseFields, Language
 from django.core.validators import MaxValueValidator, MinValueValidator
+from customauth.models import User
 
 
 class Category(AbstractBaseFields):
@@ -24,7 +25,6 @@ class Category(AbstractBaseFields):
         enforcing that there can not be two categories under a parent with same
         slug
         """
-
         unique_together = ('slug', 'parent',)
         verbose_name_plural = "categories"
 
@@ -108,6 +108,20 @@ class Outcome(models.Model):
         return f"{self.course.title} {self.title}"
 
 
+class Enrollment(AbstractBaseFields):
+    """ Enrollment """
+    student = models.ForeignKey(
+        User, on_delete=models.PROTECT, related_name='student_enrollments'
+    )
+    course = models.ForeignKey(
+        Course, on_delete=models.PROTECT, related_name='course_enrollments'
+    )
+
+    def __str__(self):
+        return f"{self.student.email} - {self.course.title}"
+
+
+# functions
 def unique_slug_generator(instance):
     """ unique_slug_generator """
     constant_slug = slugify(instance.title)
