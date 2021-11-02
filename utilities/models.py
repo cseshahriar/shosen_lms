@@ -81,10 +81,8 @@ class Coupon(models.Model):
             MinValueValidator(0)
         ]
     )
-    starting_date = models.DateTimeField(null=True)
+    starting_date = models.DateTimeField(null=True, blank=True)
     expire_date = models.DateTimeField()
 
     def __str__(self):
         return self.coupon_code
-
-

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from .models import Social, Language
+from .models import Social, Language, Coupon
 
 
 @admin.register(Social)
@@ -22,3 +22,15 @@ class LanguageAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'code', 'is_active')
     list_filter = ('is_active',)
     search_fields = ('name',)
+
+
+@admin.register(Coupon)
+class CouponAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'coupon_code',
+        'discount_percentage',
+        'starting_date',
+        'expire_date',
+    )
+    list_filter = ('starting_date', 'expire_date')
