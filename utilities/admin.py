@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from .models import Social, Language, Coupon, Currency, FrontendSetting
+from .models import (
+    Social, Language, Coupon, Currency, FrontendSetting, Application
+)
 
 
 @admin.register(Social)
@@ -34,6 +36,12 @@ class CouponAdmin(admin.ModelAdmin):
         'expire_date',
     )
     list_filter = ('starting_date', 'expire_date')
+
+
+@admin.register(Application)
+class ApplicationAdmin(admin.ModelAdmin):
+    list_display = ('id', 'user', 'document', 'detail', 'is_aproved')
+    list_filter = ('user', 'is_aproved')
 
 
 @admin.register(Currency)

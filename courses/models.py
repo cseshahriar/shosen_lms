@@ -212,7 +212,7 @@ class Comment(models.Model):
     body = models.TextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     limit = models.Q(app_label='course', model='course') | \
-            models.Q(app_label='customauth', model='user')
+            models.Q(app_label='customauth', model='user')  # noqa
     content_type = models.ForeignKey(
         ContentType, on_delete=models.CASCADE,
         limit_choices_to=limit
