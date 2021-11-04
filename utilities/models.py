@@ -141,6 +141,9 @@ class Message(models.Model):
 
 
 class SingletonModel(models.Model):
+    def set_cache(self):
+        cache.set(self.__class__.__name__, self)
+        
     def save(self, *args, **kwargs):
         self.pk = 1
         super(SingletonModel, self).save(*args, **kwargs)
