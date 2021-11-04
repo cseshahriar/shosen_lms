@@ -156,6 +156,10 @@ class SingletonModel(models.Model):
 
 
 class SiteSettings(SingletonModel):
+    """
+    References
+    https://steelkiwi.com/blog/practical-application-singleton-design-pattern
+    """
     website_name = models.CharField(max_length=255, default='Shosen LMS')
     website_title = models.CharField(
         max_length=255, default='Shosen Learning Management'

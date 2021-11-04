@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import (
     Social, Language, Coupon, Currency, FrontendSetting, Application,
-    Message
+    Message, SiteSettings
 )
 
 
@@ -75,3 +75,32 @@ class MessageAdmin(admin.ModelAdmin):
         'updated',
     )
     list_filter = ('sender', 'receiver', 'created', 'updated')
+
+
+@admin.register(SiteSettings)
+class SiteSettingsAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'website_name',
+        'website_title',
+        'website_meta_key',
+        'website_meta_description',
+        'author',
+        'slogan',
+        'info_email',
+        'sales_email',
+        'support_email',
+        'address',
+        'phone',
+        'youtube_api_key',
+        'vimeo_api_key',
+        'purchase_code',
+        'system_language',
+        'student_email_verification',
+        'footer_text',
+        'footer_link',
+        'twilio_account_sid',
+        'twilio_auth_token',
+        'twilio_phone_number',
+    )
+    list_filter = ('system_language', 'student_email_verification')
