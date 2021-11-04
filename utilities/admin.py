@@ -40,7 +40,7 @@ class CouponAdmin(admin.ModelAdmin):
 
 @admin.register(Application)
 class ApplicationAdmin(admin.ModelAdmin):
-    list_display = ('id', 'user', 'document', 'detail', 'is_aproved')
+    list_display = ('id', 'user', 'document', 'message', 'is_aproved')
     list_filter = ('user', 'is_aproved')
 
 
