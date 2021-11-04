@@ -101,6 +101,8 @@ class Course(AbstractBaseFields):
 class Requirement(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     title = models.CharField(max_length=100)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return f"{self.course.title} {self.title}"
@@ -109,6 +111,8 @@ class Requirement(models.Model):
 class Outcome(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     title = models.CharField(max_length=100)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return f"{self.course.title} {self.title}"
@@ -219,9 +223,38 @@ class Comment(models.Model):
     )
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey('content_type', 'object_id')
+    is_active = models.BooleanField(default=False)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return str(self.content[0:30])
+
+
+class Rating(models.Model):
+    student = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='ratings'
+    )
+    review = models.TextField()
+    rating = models.IntegerField(
+        help_text="The rating range is 1 to 5",
+        default=0,
+        validators=[
+            MaxValueValidator(100),
+            MinValueValidator(0)
+        ]
+    )
+    limit = models.Q(app_label='course', model='course') | \
+            models.Q(app_label='customauth', model='user')  # noqa
+    content_type = models.ForeignKey(
+        ContentType, on_delete=models.CASCADE,
+        limit_choices_to=limit
+    )
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+    is_active = models.BooleanField(default=False)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
 
 # functions
