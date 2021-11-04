@@ -5,7 +5,9 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from customauth.models import User
+from django.core.cache import cache
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.core.validators import RegexValidator
 
 logger = logging.getLogger(__name__)
 
@@ -136,3 +138,63 @@ class Message(models.Model):
 
     def __str__(self):
         return f"{self.sender} - {self.receiver}"
+
+
+class SingletonModel(models.Model):
+    def save(self, *args, **kwargs):
+        self.pk = 1
+        super(SingletonModel, self).save(*args, **kwargs)
+        self.set_cache()
+
+    @classmethod
+    def load(cls):
+        if cache.get(cls.__name__) is None:
+            obj, created = cls.objects.get_or_create(pk=1)
+            if not created:
+                obj.set_cache()
+        return cache.get(cls.__name__)
+
+
+class SiteSettings(SingletonModel):
+    website_name = models.CharField(max_length=255, default='Shosen LMS')
+    website_title = models.CharField(
+        max_length=255, default='Shosen Learning Management'
+    )
+    website_meta_key = models.CharField(
+        max_length=255, help_text='Please add comma separated values'
+    )
+    website_meta_description = models.TextField()
+    author = models.CharField(max_length=255, default='Author name')
+    slogan = models.CharField(max_length=255, default='Slogan')
+    info_email = models.EmailField(default='info@example.com')
+    sales_email = models.EmailField(default='sales@example.com')
+    support_email = models.EmailField(default='support@example.com')
+    address = models.TextField(default='Address')
+    phone = models.CharField(
+        _('Mobile Phone'), max_length=14, blank=True, null=True,
+        validators=[RegexValidator(  # min: 10, max: 12 characters
+            r'^(?:\+?88)?01[15-9]\d{8}$', message='Format (ex: 01234567890)'
+        )]
+    )
+    youtube_api_key = models.CharField(
+        max_length=255, default='ACbcad883c9c3e9d9913a715557dddff99'
+    )
+    vimeo_api_key = models.CharField(
+        max_length=255, default='ACbcad883c9c3e9d9913a715557dddff99'
+    )
+    purchase_code = models.CharField(max_length=255, default='ABC001')
+    system_language = models.ForeignKey(
+        Language, on_delete=models.CASCADE, default=1, related_name='languages'
+    )
+    student_email_verification = models.BooleanField(default=False)
+    footer_text = models.TextField(max_length=255, null=True)
+    footer_link = models.CharField(max_length=255, null=True)
+    twilio_account_sid = models.CharField(
+        max_length=255, default='ACbcad883c9c3e9d9913a715557dddff99'
+    )
+    twilio_auth_token = models.CharField(
+        max_length=255, default='abd4d45dd57dd79b86dd51df2e2a6cd5'
+    )
+    twilio_phone_number = models.CharField(
+        max_length=255, default='+15006660005'
+    )
