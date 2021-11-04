@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 from .models import (
-    Social, Language, Coupon, Currency, FrontendSetting, Application
+    Social, Language, Coupon, Currency, FrontendSetting, Application,
+    Message
 )
 
 
@@ -61,3 +62,16 @@ class CurrencyAdmin(admin.ModelAdmin):
 @admin.register(FrontendSetting)
 class FrontendSettingAdmin(admin.ModelAdmin):
     list_display = ('id', 'key', 'value', 'file')
+
+
+@admin.register(Message)
+class MessageAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'sender',
+        'receiver',
+        'message',
+        'created',
+        'updated',
+    )
+    list_filter = ('sender', 'receiver', 'created', 'updated')
