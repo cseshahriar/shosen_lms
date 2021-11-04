@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import (
     Category, Course, Requirement, Outcome, Enrollment, Section, Lesson,
-    Payment
+    Payment, Comment, Rating
 )
 
 
@@ -190,4 +190,41 @@ class PaymentAdmin(admin.ModelAdmin):
         'user',
         'course',
         'is_paid',
+    )
+
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'body',
+        'user',
+        'content_type',
+        'object_id',
+        'is_active',
+        'created',
+        'updated',
+    )
+    list_filter = ('user', 'content_type', 'is_active', 'created', 'updated')
+
+
+@admin.register(Rating)
+class RatingAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'student',
+        'review',
+        'rating',
+        'content_type',
+        'object_id',
+        'is_active',
+        'created',
+        'updated',
+    )
+    list_filter = (
+        'student',
+        'content_type',
+        'is_active',
+        'created',
+        'updated',
     )
