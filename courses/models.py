@@ -1,3 +1,4 @@
+# django imports
 from django.db import models
 from django.db.models import Max
 from django.utils.text import slugify
@@ -5,6 +6,9 @@ from django.utils.translation import gettext as _
 from django.db.models.signals import pre_save
 from django.core.validators import RegexValidator
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
+# app imports
 from utilities.models import AbstractBaseFields, Language
 from customauth.models import User
 
@@ -202,6 +206,22 @@ class Payment(AbstractBaseFields):
 
     def __str__(self):
         return f"{self.user.email} {self.course.title} {self.amount}"
+
+
+class Comment(models.Model):
+    body = models.TextField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    limit = models.Q(app_label='course', model='course') | \
+            models.Q(app_label='customauth', model='user')
+    content_type = models.ForeignKey(
+        ContentType, on_delete=models.CASCADE,
+        limit_choices_to=limit
+    )
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    def __str__(self):
+        return str(self.content[0:30])
 
 
 # functions

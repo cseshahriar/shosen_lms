@@ -108,3 +108,16 @@ class FrontendSetting(models.Model):
 
     def __str__(self):
         return self.key
+
+
+class Application(models.Model):
+    """ leave applications """
+    user = models.ForeignKey(
+        User, on_delete=models.PROTECT, related_name='applications'
+    )
+    document = models.FileField(upload_to='applications/')
+    detail = models.TextField()
+    is_aproved = models.BooleanField(default=False)
+
+    def __str__(self):
+        return str(self.detail[0:30])

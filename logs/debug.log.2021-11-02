@@ -1,0 +1,28 @@
+2021-11-02 17:23:20,926 INFO autoreload 51052 140064901777216 Watching for file changes with StatReloader
+2021-11-02 17:23:30,209 WARNING log 51052 140064721991424 Not Found: /
+2021-11-02 17:23:30,570 WARNING log 51052 140064713598720 Not Found: /favicon.ico
+2021-11-02 17:27:17,523 INFO autoreload 51052 140064901777216 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:27:17,893 INFO autoreload 51390 140421109372736 Watching for file changes with StatReloader
+2021-11-02 17:27:52,196 INFO autoreload 51390 140421109372736 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:27:52,459 INFO autoreload 51413 140424249112384 Watching for file changes with StatReloader
+2021-11-02 17:29:02,887 INFO autoreload 51413 140424249112384 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:29:03,362 INFO autoreload 51466 139687072155456 Watching for file changes with StatReloader
+2021-11-02 17:29:14,803 INFO autoreload 51466 139687072155456 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:29:15,270 INFO autoreload 51485 140427181586240 Watching for file changes with StatReloader
+2021-11-02 17:29:53,197 INFO autoreload 51485 140427181586240 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:29:53,752 INFO autoreload 51543 140177466529600 Watching for file changes with StatReloader
+2021-11-02 17:30:26,553 INFO autoreload 51543 140177466529600 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:30:27,016 INFO autoreload 51573 139918181644096 Watching for file changes with StatReloader
+2021-11-02 17:31:35,439 INFO autoreload 51573 139918181644096 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:31:35,907 INFO autoreload 51609 139725721794368 Watching for file changes with StatReloader
+2021-11-02 17:35:55,429 INFO autoreload 52148 140607568860992 Watching for file changes with StatReloader
+2021-11-02 17:36:26,783 INFO autoreload 52148 140607568860992 /home/shosen/projects/shosen_lms/courses/admin.py changed, reloading.
+2021-11-02 17:36:27,226 INFO autoreload 52229 140455633012544 Watching for file changes with StatReloader
+2021-11-02 17:36:58,546 INFO autoreload 52229 140455633012544 /home/shosen/projects/shosen_lms/courses/admin.py changed, reloading.
+2021-11-02 17:36:59,000 INFO autoreload 52281 140303808563008 Watching for file changes with StatReloader
+2021-11-02 17:37:05,194 INFO autoreload 52281 140303808563008 /home/shosen/projects/shosen_lms/courses/admin.py changed, reloading.
+2021-11-02 17:37:05,691 INFO autoreload 52287 140601464833856 Watching for file changes with StatReloader
+2021-11-02 17:37:31,419 INFO autoreload 52287 140601464833856 /home/shosen/projects/shosen_lms/utilities/admin.py changed, reloading.
+2021-11-02 17:37:31,920 INFO autoreload 52319 140689199925056 Watching for file changes with StatReloader
+2021-11-02 17:38:12,280 INFO autoreload 52319 140689199925056 /home/shosen/projects/shosen_lms/utilities/models.py changed, reloading.
+2021-11-02 17:38:12,783 INFO autoreload 52437 140208492234560 Watching for file changes with StatReloader
