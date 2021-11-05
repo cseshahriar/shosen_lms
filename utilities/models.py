@@ -237,3 +237,23 @@ class SiteSettings(SingletonModel):
             MinValueValidator(2)
         ]
     )
+    banner = models.ImageField(
+        upload_to='banner/', null=True,
+        help_text='Upload banner image(2000x1335)px'
+    )
+    light_logo = models.ImageField(
+        upload_to='logos/', null=True,
+        help_text='Upload light logo(330x70)px'
+    )
+    dark_logo = models.ImageField(
+        upload_to='logos/', null=True,
+        help_text='Upload dark logo(330x70)px'
+    )
+    small_logo = models.ImageField(
+        upload_to='logos/', null=True,
+        help_text='Upload dark logo(49x58)px'
+    )
+    favicon = models.ImageField(
+        upload_to='logos/', null=True,
+        help_text='Upload dark logo(90x90)px'
+    )
