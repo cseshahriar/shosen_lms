@@ -2,10 +2,11 @@ import logging
 
 # DJANGO IMPORTS
 from django.db import models
-from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from customauth.models import User
 from django.core.cache import cache
+from ckeditor.fields import RichTextField
+from django.utils.translation import gettext_lazy as _
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.core.validators import RegexValidator
 
@@ -182,7 +183,7 @@ class SiteSettings(SingletonModel):
     info_email = models.EmailField(default='info@example.com')
     sales_email = models.EmailField(default='sales@example.com')
     support_email = models.EmailField(default='support@example.com')
-    address = models.TextField(default='Address')
+    address = RichTextField()
     phone = models.CharField(
         _('Mobile Phone'), max_length=14, blank=True, null=True,
         validators=[RegexValidator(  # min: 10, max: 12 characters
@@ -200,7 +201,7 @@ class SiteSettings(SingletonModel):
         Language, on_delete=models.CASCADE, default=1, related_name='languages'
     )
     student_email_verification = models.BooleanField(default=False)
-    footer_text = models.TextField(max_length=255, null=True)
+    footer_text = RichTextField(null=True)
     footer_link = models.CharField(max_length=255, null=True)
     twilio_account_sid = models.CharField(
         max_length=255, default='ACbcad883c9c3e9d9913a715557dddff99'
@@ -210,4 +211,29 @@ class SiteSettings(SingletonModel):
     )
     twilio_phone_number = models.CharField(
         max_length=255, default='+15006660005'
+    )
+    cookies_status = models.BooleanField(default=False)
+    cookie_note = models.CharField(
+        max_length=255,
+        default="""This website uses cookie to personalize content and analyse
+         in order to offer you a better exprerience."""
+    )
+    facebook = models.URLField(default='www.facebook.com/lsm')
+    twitter = models.URLField(default='www.twitter.com/lsm')
+    linkedin = models.URLField(default='www.linkedin.com/lsm')
+    cookie_policy = RichTextField(null=True)
+    about_us = RichTextField(null=True)
+    terms_and_conditions = RichTextField(null=True)
+    refound_policy = RichTextField(null=True)
+    recaptcha_settings = models.BooleanField(default=False)
+    recaptcha_sitekey = models.CharField(max_length=255, null=True, blank=True)
+    recaptcha_secretkey = models.CharField(
+        max_length=255, null=True, blank=True
+    )
+    recaptcha_version = models.IntegerField(
+        default=2,
+        validators=[
+            MaxValueValidator(3),
+            MinValueValidator(2)
+        ]
     )
