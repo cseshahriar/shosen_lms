@@ -79,6 +79,7 @@ class MessageAdmin(admin.ModelAdmin):
 
 @admin.register(SiteSettings)
 class SiteSettingsAdmin(admin.ModelAdmin):
+    list_display_links = ('website_name',)
     list_display = (
         'id',
         'website_name',
@@ -102,5 +103,23 @@ class SiteSettingsAdmin(admin.ModelAdmin):
         'twilio_account_sid',
         'twilio_auth_token',
         'twilio_phone_number',
+        'cookies_status',
+        'cookie_note',
+        'facebook',
+        'twitter',
+        'linkedin',
+        'cookie_policy',
+        'about_us',
+        'terms_and_conditions',
+        'refound_policy',
+        'recaptcha_settings',
+        'recaptcha_sitekey',
+        'recaptcha_secretkey',
+        'recaptcha_version',
     )
-    list_filter = ('system_language', 'student_email_verification')
+    list_filter = (
+        'system_language',
+        'student_email_verification',
+        'cookies_status',
+        'recaptcha_settings',
+    )
