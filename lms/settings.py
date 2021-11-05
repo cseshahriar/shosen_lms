@@ -95,6 +95,9 @@ PLUGIN_APPS = [
     # https://django-extensions.readthedocs.io/en/latest/index.html
     'django_extensions',
     'ckeditor',
+    'easy_thumbnails',
+    'filer',
+    'mptt',
 ]
 
 # add project applications here
@@ -103,6 +106,16 @@ PROJECT_APPS = [
     'utilities.apps.UtilitiesConfig',
     'courses.apps.CoursesConfig',
 ]
+
+THUMBNAIL_PROCESSORS = (
+    'easy_thumbnails.processors.colorspace',
+    'easy_thumbnails.processors.autocrop',
+    #'easy_thumbnails.processors.scale_and_crop',
+    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    'easy_thumbnails.processors.filters',
+)
+
+THUMBNAIL_HIGH_RESOLUTION = True
 
 # consolidate all installed applications here
 INSTALLED_APPS = DJANGO_APPS + PLUGIN_APPS + PROJECT_APPS

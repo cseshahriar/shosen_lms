@@ -27,6 +27,9 @@ urlpatterns = [
 
     # drf api auth
     path('api-auth/', include('rest_framework.urls')),
+
+    # file
+    path('filer/', include('filer.urls')),
 ]
 
 # serve media files in development environment
