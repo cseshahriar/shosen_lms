@@ -116,6 +116,11 @@ class SiteSettingsAdmin(admin.ModelAdmin):
         'recaptcha_sitekey',
         'recaptcha_secretkey',
         'recaptcha_version',
+        'banner',
+        'light_logo',
+        'dark_logo',
+        'small_logo',
+        'favicon',
     )
     list_filter = (
         'system_language',
