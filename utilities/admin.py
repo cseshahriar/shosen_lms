@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import (
     Social, Language, Coupon, Currency, Application,
-    Message, SiteSettings, PaymentSettings
+    Message, SiteSettings, PaymentSettings, SMTPSettings
 )
 
 
@@ -138,3 +138,8 @@ class PaymentSettingsAdmin(admin.ModelAdmin):
         'production_secret_key',
     )
     list_filter = ('active', 'currency')
+
+
+@admin.register(SMTPSettings)
+class SMTPSettingsAdmin(admin.ModelAdmin):
+    list_display = ('id', 'protocaol', 'host', 'port', 'password')
