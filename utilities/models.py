@@ -196,16 +196,6 @@ class Currency(models.Model):
         return '{0}{1}'.format(self.code, sym)
 
 
-class FrontendSetting(models.Model):
-    """ Frontend settings """
-    key = models.CharField(max_length=100, unique=True)
-    value = models.TextField(null=True, blank=True)
-    file = models.FileField(upload_to='frontends/', null=True, blank=True)
-
-    def __str__(self):
-        return self.key
-
-
 class Application(models.Model):
     """ leave applications """
     user = models.ForeignKey(
@@ -357,3 +347,24 @@ class SiteSettings(SingletonModel):
     class Meta:
         verbose_name = 'Site Setting'
         verbose_name_plural = 'Site Settings'
+
+
+class PaymentSettings(SingletonModel):
+    MODE_CHOICES = [
+        ('sandbox', 'Sandbox'),
+        ('production', 'Production'),
+    ]
+    active = models.BooleanField(default=False)
+    mode = models.CharField(
+        max_length=50, choices=MODE_CHOICES, default='sandbox'
+    )
+    currency = models.ForeignKey(
+        Currency, on_delete=models.PROTECT, related_name='payment_currency'
+    )
+    sandbox_client_id = models.CharField(max_length=255)
+    sandbox_secret_key = models.CharField(max_length=255)
+    production_client_id = models.CharField(max_length=255)
+    production_secret_key = models.CharField(max_length=255)
+
+    def __str__(self):
+        self.mode

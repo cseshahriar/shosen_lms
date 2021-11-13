@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 from .models import (
-    Social, Language, Coupon, Currency, FrontendSetting, Application,
+    Social, Language, Coupon, Currency, Application,
     Message, SiteSettings
 )
 
@@ -57,11 +57,6 @@ class CurrencyAdmin(admin.ModelAdmin):
     )
     list_filter = ('paypal_supported', 'stripe_supported')
     search_fields = ('name',)
-
-
-@admin.register(FrontendSetting)
-class FrontendSettingAdmin(admin.ModelAdmin):
-    list_display = ('id', 'key', 'value', 'file')
 
 
 @admin.register(Message)
