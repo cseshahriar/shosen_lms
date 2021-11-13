@@ -49,7 +49,7 @@ class ApplicationAdmin(admin.ModelAdmin):
 class CurrencyAdmin(admin.ModelAdmin):
     list_display = (
         'id',
-        'name',
+        'currency',
         'code',
         'symbol',
         'paypal_supported',

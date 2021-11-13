@@ -9,6 +9,7 @@ from ckeditor.fields import RichTextField
 from django.utils.translation import gettext_lazy as _
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.core.validators import RegexValidator
+from decimal import Decimal
 
 logger = logging.getLogger(__name__)
 
@@ -92,15 +93,93 @@ class Coupon(models.Model):
 
 
 class Currency(models.Model):
-    """ Currency model """
-    name = models.CharField(max_length=100, unique=True)
-    code = models.CharField(max_length=100, unique=True)
-    symbol = models.ImageField(upload_to='currencies/')
+    """Currency model for exchange rate calculation"""
+    currency = models.CharField(
+        _('Currency'), unique=True, max_length=150, blank=False, null=True)
+    code = models.CharField(
+        _('Currency Code'), unique=True, max_length=5, blank=False, null=True)
+    symbol = models.CharField(
+        _('Currency Symbol'), max_length=2, blank=True, null=True)
+    exchange_rate = models.FloatField(
+        _('Currency Exchange Rate'), blank=False, null=True)
+    created_at = models.DateTimeField(
+        _('Created At'), auto_now_add=True, blank=False, null=True)
+    updated_at = models.DateTimeField(
+        _('Updated At'), auto_now=True, blank=False, null=True)
+    is_active = models.BooleanField(
+        _('Is Currency Active?'), default=True, blank=False, null=True)
     paypal_supported = models.BooleanField(default=True)
     stripe_supported = models.BooleanField(default=True)
 
+    class Meta:
+        ordering = ['currency']
+
+    @staticmethod
+    def get_bdt():
+        """returns the BDT currency object"""
+        obj, created = Currency.objects.get_or_create(
+            code='BDT',
+            defaults={'currency': 'Bangladesh Taka',
+                      'symbol': '৳', 'exchange_rate': 1.0})
+        return obj
+
+    @staticmethod
+    def get_bdt_pk():
+        return Currency.get_bdt().pk
+
+    @property
+    def bdt(self):
+        """property for bdt currency"""
+        return self.get_bdt()
+
+    def to_bdt(self, amount):
+        """convert amount to bdt using the exchange rate"""
+        return Decimal(self.exchange_rate) * Decimal(amount)
+
+    @staticmethod
+    def get_usd():
+        """returns the USD currency object"""
+        obj, created = Currency.objects.get_or_create(
+            code='USD',
+            defaults={'currency': 'United States Dollar',
+                      'symbol': '$', 'exchange_rate': 85.0})
+        return obj
+
+    @property
+    def usd(self):
+        """property for usd currency"""
+        return self.get_usd()
+
+    def to_usd(self, amount):
+        """convert amount to usd via bdt"""
+        usd_obj = self.get_usd()
+        # if amount already in usd, return the amount
+        if self.code == usd_obj.code:
+            return amount
+        # if amount in bdt, convert and return amount
+        elif self.code.upper() == 'BDT':
+            return Decimal(amount) / Decimal(usd_obj.exchange_rate)
+        # if amount in other currency, convert to bdt, then to usd and return
+        else:
+            return Decimal(self.to_bdt(amount)) / Decimal(usd_obj.exchange_rate)  # noqa
+
+    def to_native(self, amount):
+        """convert amount to native from bdt"""
+        return Decimal(amount) / Decimal(self.exchange_rate)
+
+    def exchange(self, amount, to_currency: 'Currency'):
+        """exchanges from one currency to another via bdt"""
+        if self.code.upper() == to_currency.code.upper():
+            return Decimal(amount)
+        elif self.code.upper() == 'BDT':
+            return Decimal(amount) / Decimal(to_currency.exchange_rate)
+        else:
+            amount_in_bdt = self.to_bdt(amount)
+            return amount_in_bdt / Decimal(to_currency.exchange_rate)
+
     def __str__(self):
-        return self.name
+        sym = '(' + self.symbol + ')' if self.symbol is not None else ''
+        return '{0}{1}'.format(self.code, sym)
 
 
 class FrontendSetting(models.Model):
@@ -257,3 +336,10 @@ class SiteSettings(SingletonModel):
         upload_to='logos/', null=True,
         help_text='Upload dark logo(90x90)px'
     )
+
+    def __str__(self):
+        return self.website_name
+
+    class Meta:
+        verbose_name = 'Site Setting'
+        verbose_name_plural = 'Site Settings'
