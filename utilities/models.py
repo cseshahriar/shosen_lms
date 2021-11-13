@@ -366,5 +366,9 @@ class PaymentSettings(SingletonModel):
     production_client_id = models.CharField(max_length=255)
     production_secret_key = models.CharField(max_length=255)
 
+    class Meta:
+        verbose_name = _('Payment Setting')
+        verbose_name_plural = _('Payment Settings')
+
     def __str__(self):
         self.mode

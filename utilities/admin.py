@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import (
     Social, Language, Coupon, Currency, Application,
-    Message, SiteSettings
+    Message, SiteSettings, PaymentSettings
 )
 
 
@@ -123,3 +123,18 @@ class SiteSettingsAdmin(admin.ModelAdmin):
         'cookies_status',
         'recaptcha_settings',
     )
+
+
+@admin.register(PaymentSettings)
+class PaymentSettingsAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'active',
+        'mode',
+        'currency',
+        'sandbox_client_id',
+        'sandbox_secret_key',
+        'production_client_id',
+        'production_secret_key',
+    )
+    list_filter = ('active', 'currency')
