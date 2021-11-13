@@ -1,6 +1,7 @@
 import logging
 
 # DJANGO IMPORTS
+from decimal import Decimal
 from django.db import models
 from django.conf import settings
 from customauth.models import User
@@ -9,7 +10,7 @@ from ckeditor.fields import RichTextField
 from django.utils.translation import gettext_lazy as _
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.core.validators import RegexValidator
-from decimal import Decimal
+from django.core.exceptions import ValidationError
 
 logger = logging.getLogger(__name__)
 
@@ -92,22 +93,35 @@ class Coupon(models.Model):
         return self.coupon_code
 
 
+def system_default_currency(value):
+    data = Currency.objects.filter(is_default_currency=True)
+    if data.count() >= 1:
+        raise ValidationError(
+            _('Oops Onely one currency can default.'),
+            params={'value': value},
+        )
+
+
 class Currency(models.Model):
     """Currency model for exchange rate calculation"""
     currency = models.CharField(
-        _('Currency'), unique=True, max_length=150, blank=False, null=True)
+        _('Currency'), unique=True, max_length=150)
     code = models.CharField(
-        _('Currency Code'), unique=True, max_length=5, blank=False, null=True)
+        _('Currency Code'), unique=True, max_length=5)
     symbol = models.CharField(
         _('Currency Symbol'), max_length=2, blank=True, null=True)
     exchange_rate = models.FloatField(
         _('Currency Exchange Rate'), blank=False, null=True)
     created_at = models.DateTimeField(
-        _('Created At'), auto_now_add=True, blank=False, null=True)
+        _('Created At'), auto_now_add=True, null=True)
     updated_at = models.DateTimeField(
-        _('Updated At'), auto_now=True, blank=False, null=True)
+        _('Updated At'), auto_now=True, null=True)
     is_active = models.BooleanField(
-        _('Is Currency Active?'), default=True, blank=False, null=True)
+        _('Is Currency Active?'), default=False)
+    is_default_currency = models.BooleanField(
+        _('Is System default currency?'), default=False,
+        validators=[system_default_currency]
+    )
     paypal_supported = models.BooleanField(default=True)
     stripe_supported = models.BooleanField(default=True)
 
