@@ -372,3 +372,24 @@ class PaymentSettings(SingletonModel):
 
     def __str__(self):
         self.mode
+
+
+class SMTPSettings(SingletonModel):
+    SMTP = 'smtp'
+    PROTOCOL_CHOICES = [
+        (SMTP, 'SMTP'),
+        ('pop3', 'POP3'),
+        ('imap', 'IMAP'),
+    ]
+    protocaol = models.CharField(
+        max_length=50, choices=PROTOCOL_CHOICES, default=SMTP)
+    host = models.URLField(max_length=255)
+    port = models.PositiveIntegerField()
+    password = models.CharField(max_length=255)
+
+    class Meta:
+        verbose_name = _('SMTP Setting')
+        verbose_name_plural = _('SMTP Settings')
+
+    def __str__(self):
+        return self.protocaol
