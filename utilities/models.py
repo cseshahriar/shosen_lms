@@ -381,7 +381,7 @@ class SMTPSettings(SingletonModel):
         ('pop3', 'POP3'),
         ('imap', 'IMAP'),
     ]
-    protocaol = models.CharField(
+    protocol = models.CharField(
         max_length=50, choices=PROTOCOL_CHOICES, default=SMTP)
     host = models.URLField(max_length=255)
     port = models.PositiveIntegerField()
@@ -392,4 +392,4 @@ class SMTPSettings(SingletonModel):
         verbose_name_plural = _('SMTP Settings')
 
     def __str__(self):
-        return self.protocaol
+        return self.protocol

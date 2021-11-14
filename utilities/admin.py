@@ -142,4 +142,4 @@ class PaymentSettingsAdmin(admin.ModelAdmin):
 
 @admin.register(SMTPSettings)
 class SMTPSettingsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'protocaol', 'host', 'port', 'password')
+    list_display = ('id', 'protocol', 'host', 'port', 'password')
