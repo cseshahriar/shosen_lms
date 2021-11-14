@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import (
     Social, Language, Coupon, Currency, Application,
-    Message, SiteSettings, PaymentSettings, SMTPSettings
+    Message, SiteSettings, PaymentSettings, SMTPSettings, SocialSettings
 )
 
 
@@ -143,3 +143,28 @@ class PaymentSettingsAdmin(admin.ModelAdmin):
 @admin.register(SMTPSettings)
 class SMTPSettingsAdmin(admin.ModelAdmin):
     list_display = ('id', 'protocol', 'host', 'port', 'password')
+
+
+@admin.register(SocialSettings)
+class SocialSettingsAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'facebook_active',
+        'facebook_api_id',
+        'facebook_api_secret',
+        'youtube_active',
+        'youtube_api_key',
+        'youtube_restrict_key',
+        'twitter_active',
+        'twitter_api_key',
+        'twitter_restrict_key',
+        'vimeo_active',
+        'vimeo_api_key',
+        'vimeo_restrict_key',
+    )
+    list_filter = (
+        'facebook_active',
+        'youtube_active',
+        'twitter_active',
+        'vimeo_active',
+    )
