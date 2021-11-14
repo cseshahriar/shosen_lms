@@ -90,10 +90,15 @@ class User(AbstractBaseUser, PermissionsMixin):
         _('Active'), default=True, null=True
     )
     date_of_birth = models.DateField(null=True, blank=True)
-    biography = models.TextField(blank=True, null=True)
+    biography = models.TextField(
+        blank=True, null=True,
+        help_text='A short description about yourself')
     date_joined = models.DateField(auto_now_add=True)
     last_modified = models.DateField(auto_now=True)
     image = models.ImageField(upload_to='users/', null=True)
+    facebook_profile_url = models.URLField(null=True, blank=True)
+    twitter_profile_url = models.URLField(null=True, blank=True)
+    linkedin_profile_url = models.URLField(null=True, blank=True)
 
     objects = UserManager()
 
