@@ -393,3 +393,18 @@ class SMTPSettings(SingletonModel):
 
     def __str__(self):
         return self.protocol
+
+
+class SocialSettings(SingletonModel):
+    facebook_active = models.BooleanField(default=False, null=True)
+    facebook_api_id = models.CharField(max_length=255, null=True)
+    facebook_api_secret = models.CharField(max_length=255, null=True)
+    youtube_active = models.BooleanField(default=False, null=True)
+    youtube_api_key = models.CharField(max_length=255, null=True)
+    youtube_restrict_key = models.CharField(max_length=255, null=True)
+    twitter_active = models.BooleanField(default=False, null=True)
+    twitter_api_key = models.CharField(max_length=255, null=True)
+    twitter_restrict_key = models.CharField(max_length=255, null=True)
+    vimeo_active = models.BooleanField(default=False, null=True)
+    vimeo_api_key = models.CharField(max_length=255, null=True)
+    vimeo_restrict_key = models.CharField(max_length=255, null=True)
