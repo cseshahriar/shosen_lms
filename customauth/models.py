@@ -4,6 +4,7 @@ from django.db import models
 from django.contrib.auth.models import (
     BaseUserManager, AbstractBaseUser, PermissionsMixin
 )
+from ckeditor.fields import RichTextField
 from django.core.validators import RegexValidator
 from django.utils.translation import gettext_lazy as _
 
@@ -114,3 +115,16 @@ class User(AbstractBaseUser, PermissionsMixin):
         """
         full_name = f"{self.first_name}  {self.last_name}"
         return full_name
+
+
+class UserSkill(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    skill_name = models.CharField(max_length=100)
+    detail = RichTextField(null=True, blank=True)
+
+    class Meta:
+        unique_together = ['user', 'skill_name']
+        # user skill duplicate prevent
+
+    def __str__(self):
+        return f"{self.user.get_full_name} {self.skill_name}"
