@@ -20,16 +20,19 @@ from django.urls import include, path
 
 urlpatterns = [
     # prometheus url
-    path('', include('django_prometheus.urls')),
+    # path('', include('django_prometheus.urls')),
 
     # admin urls
     path(f'{settings.ADMIN_URL}/', admin.site.urls),
 
     # drf api auth
-    path('api-auth/', include('rest_framework.urls')),
+    # path('api-auth/', include('rest_framework.urls')),
 
     # file
     path('filer/', include('filer.urls')),
+
+    # customauth urls
+    path('lms/', include('customauth.urls')),
 ]
 
 # serve media files in development environment

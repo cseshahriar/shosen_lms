@@ -161,8 +161,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'  # suppress model warning
 WSGI_APPLICATION = 'lms.wsgi.application'
 
 LOGIN_URL = '/auth/login/'
-LOGIN_REDIRECT_URL = 'index'
-LOGOUT_REDIRECT_URL = 'index'
+LOGIN_REDIRECT_URL = 'dashboard'
+LOGOUT_REDIRECT_URL = 'dashboard'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
@@ -244,7 +244,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
 
 
-ADMIN_URL = 'manage'  # do not include any leading/trailing slashes
+ADMIN_URL = 'lms'  # do not include any leading/trailing slashes
 
 # Logging
 # https://docs.djangoproject.com/en/3.0/topics/logging/
