@@ -1,7 +1,8 @@
 from django.views import View
+from django.contrib import messages
+from customauth.forms import LoginForm
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
-from customauth.forms import LoginForm
 
 
 class LoginView(View):
@@ -27,7 +28,8 @@ class LoginView(View):
             )
             if user is not None and user.is_staff:
                 login(request, user)
-                return redirect('dashboard')
+                messages.success(request, f'Welcome {user.username}')
+                return redirect('customauth:dashboard')
             message = 'Login failed! User must be an active or staff user'
         return render(
             request,

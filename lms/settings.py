@@ -282,3 +282,5 @@ DBBACKUP_STORAGE_OPTIONS = {'location': 'backup/'}
 
 # after migrate
 AUTH_USER_MODEL = 'customauth.User'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
