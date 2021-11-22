@@ -1,0 +1,1823 @@
+2021-11-18 13:37:25,192 INFO autoreload 20837 140659067885376 Watching for file changes with StatReloader
+2021-11-18 13:37:27,707 WARNING log 20837 140658930390784 Not Found: /
+2021-11-18 13:37:28,095 WARNING log 20837 140658921998080 Not Found: /favicon.ico
+2021-11-18 13:40:09,081 INFO autoreload 20837 140659067885376 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 13:40:09,704 INFO autoreload 21464 140096814335808 Watching for file changes with StatReloader
+2021-11-18 13:40:42,082 WARNING log 21464 140096579294976 Not Found: /favicon.ico
+2021-11-18 13:40:55,644 WARNING log 21464 140096579294976 Not Found: /
+2021-11-18 13:41:20,348 INFO autoreload 21464 140096814335808 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 13:41:21,004 INFO autoreload 21748 139867935106880 Watching for file changes with StatReloader
+2021-11-18 13:41:25,452 INFO autoreload 21748 139867935106880 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 13:41:26,070 INFO autoreload 21810 140013866665792 Watching for file changes with StatReloader
+2021-11-18 13:41:27,642 WARNING log 21810 140013729171200 Not Found: /lms/admin/
+2021-11-18 13:41:34,965 ERROR log 21810 140013729171200 Internal Server Error: /manage/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 380, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+2021-11-18 13:41:56,873 WARNING log 21810 140013729171200 Not Found: /
+2021-11-18 13:42:03,027 INFO autoreload 21810 140013866665792 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 13:42:03,675 INFO autoreload 21962 140602501904192 Watching for file changes with StatReloader
+2021-11-18 14:08:09,927 INFO autoreload 21962 140602501904192 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:08:10,556 INFO autoreload 24950 140165412079424 Watching for file changes with StatReloader
+2021-11-18 14:08:13,949 INFO autoreload 24950 140165412079424 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:08:14,537 INFO autoreload 24996 140649582253888 Watching for file changes with StatReloader
+2021-11-18 14:08:51,438 INFO autoreload 24996 140649582253888 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:08:52,059 INFO autoreload 25058 140078077441856 Watching for file changes with StatReloader
+2021-11-18 14:09:38,123 INFO autoreload 25058 140078077441856 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 14:09:38,730 INFO autoreload 25549 140470553417536 Watching for file changes with StatReloader
+2021-11-18 14:10:13,437 INFO autoreload 25549 140470553417536 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 14:10:14,022 INFO autoreload 25662 139981038716736 Watching for file changes with StatReloader
+2021-11-18 14:11:01,128 INFO autoreload 25662 139981038716736 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 14:11:01,734 INFO autoreload 25785 140292366370624 Watching for file changes with StatReloader
+2021-11-18 14:11:18,918 INFO autoreload 25925 140164013705024 Watching for file changes with StatReloader
+2021-11-18 14:11:30,633 INFO autoreload 25925 140164013705024 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 14:11:31,261 INFO autoreload 25994 140324222097216 Watching for file changes with StatReloader
+2021-11-18 14:11:50,284 INFO autoreload 25994 140324222097216 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 14:11:50,898 INFO autoreload 26108 140443692472128 Watching for file changes with StatReloader
+2021-11-18 14:12:06,751 INFO autoreload 26108 140443692472128 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 14:12:07,367 INFO autoreload 26177 140389927855936 Watching for file changes with StatReloader
+2021-11-18 14:12:55,610 INFO autoreload 26177 140389927855936 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 14:12:56,226 INFO autoreload 26382 140438859265856 Watching for file changes with StatReloader
+2021-11-18 14:13:44,688 INFO autoreload 26598 140325186062144 Watching for file changes with StatReloader
+2021-11-18 14:14:25,429 INFO autoreload 26598 140325186062144 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:14:26,034 INFO autoreload 26811 139749109520192 Watching for file changes with StatReloader
+2021-11-18 14:15:42,262 INFO autoreload 26811 139749109520192 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:15:42,874 INFO autoreload 26974 140272284383040 Watching for file changes with StatReloader
+2021-11-18 14:15:49,375 INFO autoreload 26974 140272284383040 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:15:49,987 INFO autoreload 27055 140183063918400 Watching for file changes with StatReloader
+2021-11-18 14:15:53,369 INFO autoreload 27055 140183063918400 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:15:54,010 INFO autoreload 27094 140508502529856 Watching for file changes with StatReloader
+2021-11-18 14:15:58,417 WARNING log 27094 140508298135296 Not Found: /plugins/fontawesome-free/css/all.min.css
+2021-11-18 14:15:58,437 WARNING log 27094 140508260632320 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 14:15:58,460 WARNING log 27094 140508289742592 Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2021-11-18 14:15:58,470 WARNING log 27094 140508269287168 Not Found: /plugins/jquery/jquery.min.js
+2021-11-18 14:15:58,472 WARNING log 27094 140507908929280 Not Found: /dist/js/adminlte.min.js
+2021-11-18 14:15:58,486 WARNING log 27094 140508277679872 Not Found: /dist/css/adminlte.min.css
+2021-11-18 14:15:58,608 WARNING log 27094 140508277679872 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 14:15:58,683 WARNING log 27094 140508277679872 Not Found: /dist/js/adminlte.min.js
+2021-11-18 14:16:02,900 INFO autoreload 27094 140508502529856 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:16:03,566 INFO autoreload 27187 140087491426112 Watching for file changes with StatReloader
+2021-11-18 14:18:23,369 WARNING log 27187 140087236998912 Not Found: /dist/js/adminlte.min.js
+2021-11-18 14:18:23,389 WARNING log 27187 140087253784320 Not Found: /plugins/jquery/jquery.min.js
+2021-11-18 14:18:23,405 WARNING log 27187 140087245391616 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 14:18:23,544 WARNING log 27187 140087245391616 Not Found: /dist/js/adminlte.min.js
+2021-11-18 14:18:42,241 WARNING log 27187 140087245391616 Not Found: /plugins/jquery/jquery.min.js
+2021-11-18 14:18:42,256 WARNING log 27187 140087253784320 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 14:18:42,261 WARNING log 27187 140087354193664 Not Found: /dist/js/adminlte.min.js
+2021-11-18 14:25:07,746 ERROR log 27187 140087354193664 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'render_field'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 15, in get
+    return render(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 34: 'render_field'. Did you forget to register or load this tag?
+2021-11-18 14:26:01,590 INFO autoreload 27187 140087491426112 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:26:01,977 INFO autoreload 28705 139805343024960 Watching for file changes with StatReloader
+2021-11-18 14:26:08,171 INFO autoreload 28705 139805343024960 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:26:08,390 INFO autoreload 28765 139629354952512 Watching for file changes with StatReloader
+2021-11-18 14:26:30,754 INFO autoreload 28765 139629354952512 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:26:31,292 INFO autoreload 28918 140073177954112 Watching for file changes with StatReloader
+2021-11-18 14:26:34,126 ERROR log 28918 140072973580032 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'render_field'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 15, in get
+    return render(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 34: 'render_field'. Did you forget to register or load this tag?
+2021-11-18 14:27:30,060 ERROR log 28918 140072973580032 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 15, in get
+    return render(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'static'. Did you forget to register or load this tag?
+2021-11-18 14:27:40,518 ERROR log 28918 140072973580032 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 15, in get
+    return render(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/widget_tweaks/templatetags/widget_tweaks.py", line 179, in render_field
+    form_field = parser.compile_filter(form_field)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '="email"' from 'type="email"'
+2021-11-18 14:28:29,307 INFO autoreload 28918 140073177954112 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:28:29,964 INFO autoreload 29292 139810899437376 Watching for file changes with StatReloader
+2021-11-18 14:31:48,270 WARNING log 29292 139810686625536 Not Found: /admin
+2021-11-18 14:33:16,207 INFO autoreload 29292 139810899437376 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:33:16,821 INFO autoreload 30281 140572355999552 Watching for file changes with StatReloader
+2021-11-18 14:33:41,391 INFO autoreload 30281 140572355999552 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:33:42,075 INFO autoreload 30384 139805261829952 Watching for file changes with StatReloader
+2021-11-18 14:33:46,441 WARNING log 30384 139805058246400 Not Found: /man/login/
+2021-11-18 14:34:15,460 INFO autoreload 30384 139805261829952 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:34:16,102 INFO autoreload 30594 140544040531776 Watching for file changes with StatReloader
+2021-11-18 14:34:31,099 WARNING log 30594 140543903299328 Not Found: /manage/login/
+2021-11-18 14:34:42,486 INFO autoreload 30594 140544040531776 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 14:34:43,125 INFO autoreload 30808 140665145550656 Watching for file changes with StatReloader
+2021-11-18 14:34:58,619 WARNING log 30808 140664941131520 Not Found: /login/
+2021-11-18 14:35:04,319 INFO autoreload 30808 140665145550656 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 14:35:04,929 INFO autoreload 30940 140688875587392 Watching for file changes with StatReloader
+2021-11-18 14:35:20,813 INFO autoreload 30940 140688875587392 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:35:21,453 INFO autoreload 31029 140514379900736 Watching for file changes with StatReloader
+2021-11-18 14:35:33,314 INFO autoreload 31029 140514379900736 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:35:33,990 INFO autoreload 31117 140138194569024 Watching for file changes with StatReloader
+2021-11-18 14:35:44,801 INFO autoreload 31117 140138194569024 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 14:35:45,440 INFO autoreload 31199 140394964633408 Watching for file changes with StatReloader
+2021-11-18 14:43:59,978 INFO autoreload 31199 140394964633408 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:44:00,630 INFO autoreload 32181 140364115973952 Watching for file changes with StatReloader
+2021-11-18 14:47:10,569 INFO autoreload 32181 140364115973952 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:47:11,190 INFO autoreload 32462 140580501968704 Watching for file changes with StatReloader
+2021-11-18 14:49:00,687 INFO autoreload 32462 140580501968704 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:49:01,288 INFO autoreload 32702 139851596851008 Watching for file changes with StatReloader
+2021-11-18 14:49:32,723 INFO autoreload 32702 139851596851008 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:49:33,344 INFO autoreload 32798 139719117993792 Watching for file changes with StatReloader
+2021-11-18 14:50:15,995 INFO autoreload 32798 139719117993792 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:50:16,607 INFO autoreload 32920 140308037109568 Watching for file changes with StatReloader
+2021-11-18 14:53:06,956 INFO autoreload 32920 140308037109568 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:53:07,556 INFO autoreload 33289 139818863322944 Watching for file changes with StatReloader
+2021-11-18 14:54:09,693 INFO autoreload 33289 139818863322944 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:54:10,325 INFO autoreload 33460 139912161572672 Watching for file changes with StatReloader
+2021-11-18 14:55:01,402 INFO autoreload 33460 139912161572672 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:55:01,991 INFO autoreload 33607 139719894665024 Watching for file changes with StatReloader
+2021-11-18 14:55:24,103 INFO autoreload 33607 139719894665024 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:55:24,715 INFO autoreload 33734 140263384209216 Watching for file changes with StatReloader
+2021-11-18 14:56:01,406 INFO autoreload 33734 140263384209216 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:56:01,995 INFO autoreload 33831 140030879389504 Watching for file changes with StatReloader
+2021-11-18 14:56:05,419 INFO autoreload 33831 140030879389504 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 14:56:06,039 INFO autoreload 33881 140063673403200 Watching for file changes with StatReloader
+2021-11-18 14:57:32,300 INFO autoreload 33881 140063673403200 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:57:32,925 INFO autoreload 34071 140059720943424 Watching for file changes with StatReloader
+2021-11-18 14:57:35,319 INFO autoreload 34071 140059720943424 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 14:57:35,950 INFO autoreload 34129 140434213140288 Watching for file changes with StatReloader
+2021-11-18 15:20:21,356 ERROR log 34129 140434000328448 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'ucfirst'
+2021-11-18 15:22:05,354 ERROR log 34129 140434000328448 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 93, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 67, in get_success_url
+    return url or resolve_url(settings.LOGIN_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2021-11-18 15:22:05,959 WARNING log 34129 140434000328448 Not Found: /favicon.ico
+2021-11-18 15:23:05,076 INFO autoreload 34129 140434213140288 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 15:23:05,782 INFO autoreload 38465 140584243156800 Watching for file changes with StatReloader
+2021-11-18 15:23:11,419 WARNING log 38465 140584105924352 Not Found: /
+2021-11-18 15:23:15,997 WARNING log 38465 140584105924352 Not Found: /manage/
+2021-11-18 15:23:42,907 WARNING log 38465 140584105924352 Not Found: /lms/manage/
+2021-11-18 15:23:43,395 WARNING log 38465 140584105924352 Not Found: /favicon.ico
+2021-11-18 15:24:03,168 WARNING log 38465 140584105924352 Not Found: /favicon.ico
+2021-11-18 15:24:12,262 ERROR log 38465 140584105924352 Internal Server Error: /lms/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 380, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2021-11-18 15:24:24,881 INFO autoreload 38465 140584243156800 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 15:24:25,564 INFO autoreload 38765 140212652672832 Watching for file changes with StatReloader
+2021-11-18 15:24:31,082 INFO autoreload 38765 140212652672832 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 15:24:31,702 INFO autoreload 38838 140066497124160 Watching for file changes with StatReloader
+2021-11-18 15:24:50,611 INFO autoreload 38838 140066497124160 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 15:24:51,260 INFO autoreload 38962 140301123897152 Watching for file changes with StatReloader
+2021-11-18 15:24:58,765 INFO autoreload 38962 140301123897152 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:24:59,411 INFO autoreload 39046 140217697806144 Watching for file changes with StatReloader
+2021-11-18 15:25:05,967 INFO autoreload 39046 140217697806144 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 15:25:06,621 INFO autoreload 39146 140473509037888 Watching for file changes with StatReloader
+2021-11-18 15:25:13,170 INFO autoreload 39146 140473509037888 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:25:13,798 INFO autoreload 39229 139961013778240 Watching for file changes with StatReloader
+2021-11-18 15:25:20,312 INFO autoreload 39229 139961013778240 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:25:20,914 INFO autoreload 39310 140297353692992 Watching for file changes with StatReloader
+2021-11-18 15:25:30,563 INFO autoreload 39310 140297353692992 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:25:31,226 INFO autoreload 39416 140376316200768 Watching for file changes with StatReloader
+2021-11-18 15:25:43,922 INFO autoreload 39416 140376316200768 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:25:44,538 INFO autoreload 39520 140012143359808 Watching for file changes with StatReloader
+2021-11-18 15:26:01,493 INFO autoreload 39520 140012143359808 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:26:02,119 INFO autoreload 39625 139972450522944 Watching for file changes with StatReloader
+2021-11-18 15:26:15,817 INFO autoreload 39625 139972450522944 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:26:16,431 INFO autoreload 39740 139670718891840 Watching for file changes with StatReloader
+2021-11-18 15:26:21,983 INFO autoreload 39740 139670718891840 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 15:26:22,630 INFO autoreload 39842 140232062576448 Watching for file changes with StatReloader
+2021-11-18 15:26:34,386 INFO autoreload 39842 140232062576448 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:26:35,026 INFO autoreload 39959 140486988117824 Watching for file changes with StatReloader
+2021-11-18 15:26:55,142 INFO autoreload 39959 140486988117824 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:26:55,787 INFO autoreload 40073 140380498347840 Watching for file changes with StatReloader
+2021-11-18 15:27:06,515 INFO autoreload 40073 140380498347840 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:27:07,149 INFO autoreload 40180 140597097670464 Watching for file changes with StatReloader
+2021-11-18 15:27:19,936 INFO autoreload 40180 140597097670464 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:27:20,547 INFO autoreload 40293 139623496222528 Watching for file changes with StatReloader
+2021-11-18 15:27:32,257 INFO autoreload 40293 139623496222528 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:27:32,864 INFO autoreload 40413 140114274924352 Watching for file changes with StatReloader
+2021-11-18 15:27:48,671 INFO autoreload 40413 140114274924352 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:27:49,297 INFO autoreload 40508 139922033055552 Watching for file changes with StatReloader
+2021-11-18 15:27:55,859 INFO autoreload 40508 139922033055552 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 15:27:56,496 INFO autoreload 40618 140055232272192 Watching for file changes with StatReloader
+2021-11-18 15:28:06,148 INFO autoreload 40618 140055232272192 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 15:28:06,781 INFO autoreload 40719 140144665712448 Watching for file changes with StatReloader
+2021-11-18 15:28:14,391 INFO autoreload 40719 140144665712448 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 15:28:15,040 INFO autoreload 40829 140341033105216 Watching for file changes with StatReloader
+2021-11-18 15:28:20,489 INFO autoreload 40829 140341033105216 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 15:28:21,089 INFO autoreload 40912 140053017319232 Watching for file changes with StatReloader
+2021-11-18 15:37:13,473 INFO autoreload 40912 140053017319232 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 15:37:14,102 INFO autoreload 42434 140184675280704 Watching for file changes with StatReloader
+2021-11-18 15:37:21,650 INFO autoreload 42434 140184675280704 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 15:37:22,279 INFO autoreload 42544 139643569018688 Watching for file changes with StatReloader
+2021-11-18 15:37:45,555 INFO autoreload 42544 139643569018688 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:37:46,173 INFO autoreload 42649 140071306438464 Watching for file changes with StatReloader
+2021-11-18 15:37:54,828 INFO autoreload 42649 140071306438464 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:37:55,416 INFO autoreload 42755 140066542053184 Watching for file changes with StatReloader
+2021-11-18 15:38:15,432 INFO autoreload 42755 140066542053184 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:38:16,098 INFO autoreload 42904 139886165305152 Watching for file changes with StatReloader
+2021-11-18 15:53:31,301 INFO autoreload 42904 139886165305152 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 15:53:31,930 INFO autoreload 45118 140024240473920 Watching for file changes with StatReloader
+2021-11-18 15:53:34,312 INFO autoreload 45118 140024240473920 /home/shosen/projects/shosen_lms/customauth/views/__init__.py changed, reloading.
+2021-11-18 15:53:34,929 INFO autoreload 45167 140245753407296 Watching for file changes with StatReloader
+2021-11-18 15:54:16,065 INFO autoreload 45167 140245753407296 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:54:16,649 INFO autoreload 45249 140437743146816 Watching for file changes with StatReloader
+2021-11-18 15:54:47,864 INFO autoreload 45249 140437743146816 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:54:48,503 INFO autoreload 45369 139873026938688 Watching for file changes with StatReloader
+2021-11-18 15:54:54,049 INFO autoreload 45369 139873026938688 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 15:54:54,686 INFO autoreload 45433 139661892998976 Watching for file changes with StatReloader
+2021-11-18 15:55:07,537 INFO autoreload 45433 139661892998976 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:55:08,143 INFO autoreload 45521 140165150385984 Watching for file changes with StatReloader
+2021-11-18 15:56:16,919 INFO autoreload 45521 140165150385984 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 15:56:17,565 INFO autoreload 45762 139963534477120 Watching for file changes with StatReloader
+2021-11-18 15:56:39,772 INFO autoreload 45762 139963534477120 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:56:40,386 INFO autoreload 45855 139681265583936 Watching for file changes with StatReloader
+2021-11-18 15:57:27,565 INFO autoreload 45855 139681265583936 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:57:28,190 INFO autoreload 45955 140538677675840 Watching for file changes with StatReloader
+2021-11-18 15:57:41,920 INFO autoreload 45955 140538677675840 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:57:42,530 INFO autoreload 46053 139667991885632 Watching for file changes with StatReloader
+2021-11-18 15:57:44,925 INFO autoreload 46053 139667991885632 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:57:45,536 INFO autoreload 46100 140517908289344 Watching for file changes with StatReloader
+2021-11-18 15:58:18,122 ERROR log 46100 140517703677696 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 93, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 67, in get_success_url
+    return url or resolve_url(settings.LOGIN_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2021-11-18 15:58:18,721 WARNING log 46100 140517703677696 Not Found: /favicon.ico
+2021-11-18 15:58:39,246 INFO autoreload 46100 140517908289344 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 15:58:39,926 INFO autoreload 46320 140229309921088 Watching for file changes with StatReloader
+2021-11-18 15:58:41,110 WARNING log 46320 140229106358016 Forbidden (CSRF token missing or incorrect.): /lms/login/
+2021-11-18 15:59:15,667 WARNING log 46320 140229106358016 Not Found: /lms/dashboard
+2021-11-18 15:59:16,223 WARNING log 46320 140229106358016 Not Found: /favicon.ico
+2021-11-18 16:00:15,980 WARNING log 46320 140229106358016 Not Found: /lms/dashboard/
+2021-11-18 16:00:27,092 INFO autoreload 46320 140229309921088 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 16:00:27,722 INFO autoreload 46667 140090215323456 Watching for file changes with StatReloader
+2021-11-18 16:01:03,364 INFO autoreload 46667 140090215323456 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 16:01:03,987 INFO autoreload 46813 140710989211456 Watching for file changes with StatReloader
+2021-11-18 16:01:06,075 WARNING log 46813 140710779025152 Not Found: /
+2021-11-18 16:01:07,487 WARNING log 46813 140710779025152 Not Found: /
+2021-11-18 16:01:16,063 WARNING log 46813 140710779025152 Not Found: /
+2021-11-18 16:01:25,537 WARNING log 46813 140710779025152 Not Found: /admin/
+2021-11-18 16:01:32,919 WARNING log 46813 140710779025152 Not Found: /plugins/fontawesome-free/css/all.min.css
+2021-11-18 16:01:32,927 WARNING log 46813 140710770632448 Not Found: /dist/css/adminlte.min.css
+2021-11-18 16:01:32,945 WARNING log 46813 140710753588992 Not Found: /plugins/jquery/jquery.min.js
+2021-11-18 16:01:32,970 WARNING log 46813 140710745196288 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 16:01:32,982 WARNING log 46813 140710736803584 Not Found: /dist/js/adminlte.min.js
+2021-11-18 16:01:32,985 WARNING log 46813 140710728148736 Not Found: /dist/js/demo.js
+2021-11-18 16:01:33,368 WARNING log 46813 140710745196288 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:01:33,377 WARNING log 46813 140710376371968 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:01:33,389 WARNING log 46813 140710753588992 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:01:33,398 WARNING log 46813 140710736803584 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:01:33,410 WARNING log 46813 140710779025152 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:01:37,488 INFO autoreload 46813 140710989211456 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 16:01:38,176 INFO autoreload 46998 139871660648256 Watching for file changes with StatReloader
+2021-11-18 16:01:39,521 INFO autoreload 46998 139871660648256 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 16:01:40,167 INFO autoreload 47026 140289065314112 Watching for file changes with StatReloader
+2021-11-18 16:01:52,961 INFO autoreload 47026 140289065314112 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 16:01:53,581 INFO autoreload 47146 140058645501760 Watching for file changes with StatReloader
+2021-11-18 16:02:09,430 INFO autoreload 47146 140058645501760 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:10,040 INFO autoreload 47277 140553837074240 Watching for file changes with StatReloader
+2021-11-18 16:02:16,603 INFO autoreload 47277 140553837074240 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:17,209 INFO autoreload 47378 139948817684288 Watching for file changes with StatReloader
+2021-11-18 16:02:25,809 INFO autoreload 47378 139948817684288 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:26,429 INFO autoreload 47482 140013050005312 Watching for file changes with StatReloader
+2021-11-18 16:02:34,028 INFO autoreload 47482 140013050005312 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:34,640 INFO autoreload 47588 140620542863168 Watching for file changes with StatReloader
+2021-11-18 16:02:41,235 INFO autoreload 47588 140620542863168 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:41,858 INFO autoreload 47678 139898917074752 Watching for file changes with StatReloader
+2021-11-18 16:02:47,302 INFO autoreload 47678 139898917074752 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:02:47,939 INFO autoreload 47774 140108997039936 Watching for file changes with StatReloader
+2021-11-18 16:02:54,491 INFO autoreload 47774 140108997039936 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 16:02:55,108 INFO autoreload 47896 140206289815360 Watching for file changes with StatReloader
+2021-11-18 16:06:21,838 WARNING log 47896 140205910648576 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:06:21,859 WARNING log 47896 140206152320768 Not Found: /plugins/jquery/jquery.min.js
+2021-11-18 16:06:21,872 WARNING log 47896 140205919041280 Not Found: /dist/js/demo.js
+2021-11-18 16:06:21,880 WARNING log 47896 140206131603200 Not Found: /dist/js/adminlte.min.js
+2021-11-18 16:06:21,883 WARNING log 47896 140205902255872 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:06:21,923 WARNING log 47896 140206143928064 Not Found: /plugins/bootstrap/js/bootstrap.bundle.min.js
+2021-11-18 16:06:22,161 WARNING log 47896 140205910648576 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:06:22,173 WARNING log 47896 140205902255872 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:06:22,182 WARNING log 47896 140206152320768 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:06:22,195 WARNING log 47896 140206143928064 Not Found: /dist/js/adminlte.min.js
+2021-11-18 16:06:22,256 WARNING log 47896 140206143928064 Not Found: /dist/js/demo.js
+2021-11-18 16:07:08,457 WARNING log 47896 140205902255872 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:07:08,458 WARNING log 47896 140206152320768 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:07:08,473 WARNING log 47896 140206131603200 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:07:08,482 WARNING log 47896 140205910648576 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:07:08,495 WARNING log 47896 140205919041280 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:08:32,565 WARNING log 47896 140206131603200 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:08:32,601 WARNING log 47896 140205919041280 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:08:32,603 WARNING log 47896 140205910648576 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:08:32,623 WARNING log 47896 140205902255872 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:08:32,625 WARNING log 47896 140206152320768 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:51:14,597 WARNING log 47896 140205902255872 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:51:14,632 WARNING log 47896 140206131603200 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:51:14,779 WARNING log 47896 140205919041280 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:51:14,801 WARNING log 47896 140205910648576 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:51:14,813 WARNING log 47896 140206152320768 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:52:21,287 INFO autoreload 47896 140206289815360 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 16:52:22,154 INFO autoreload 51917 139943210415936 Watching for file changes with StatReloader
+2021-11-18 16:52:34,247 WARNING log 51917 139943072921344 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:52:34,309 WARNING log 51917 139943064528640 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:52:34,498 WARNING log 51917 139942830790400 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:52:34,532 WARNING log 51917 139942839445248 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:52:34,547 WARNING log 51917 139942847837952 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:52:51,066 WARNING log 51917 139942847837952 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:52:51,161 WARNING log 51917 139942839445248 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:52:51,274 WARNING log 51917 139942830790400 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:52:51,285 WARNING log 51917 139942822135552 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:52:51,301 WARNING log 51917 139943064528640 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:53:05,432 WARNING log 51917 139943064528640 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:53:05,434 WARNING log 51917 139942822135552 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:53:05,613 WARNING log 51917 139942847837952 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:53:05,616 WARNING log 51917 139942839445248 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:53:05,621 WARNING log 51917 139942830790400 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:53:11,911 WARNING log 51917 139942839445248 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:53:11,955 WARNING log 51917 139942830790400 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:53:12,085 WARNING log 51917 139943064528640 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:53:12,093 WARNING log 51917 139943072921344 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:53:12,114 WARNING log 51917 139942847837952 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:53:18,338 WARNING log 51917 139942847837952 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:53:18,386 WARNING log 51917 139942822135552 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:53:18,392 WARNING log 51917 139942830790400 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:53:18,406 WARNING log 51917 139942839445248 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:53:18,417 WARNING log 51917 139943064528640 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:53:18,560 WARNING log 51917 139943064528640 Not Found: /favicon.ico
+2021-11-18 16:53:27,081 INFO autoreload 51917 139943210415936 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 16:53:27,850 INFO autoreload 52213 140418773026624 Watching for file changes with StatReloader
+2021-11-18 16:55:40,084 INFO autoreload 52213 140418773026624 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 16:55:40,748 INFO autoreload 52532 140172777641792 Watching for file changes with StatReloader
+2021-11-18 16:56:33,685 INFO autoreload 52532 140172777641792 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 16:56:34,405 INFO autoreload 52705 139767722149696 Watching for file changes with StatReloader
+2021-11-18 16:56:43,859 WARNING log 52705 139767584655104 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:56:43,894 WARNING log 52705 139767576262400 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:56:43,925 WARNING log 52705 139767345305344 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:56:43,953 WARNING log 52705 139767362090752 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:56:43,955 WARNING log 52705 139767353698048 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:56:50,648 INFO autoreload 52705 139767722149696 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 16:56:51,397 INFO autoreload 52847 140706183268160 Watching for file changes with StatReloader
+2021-11-18 16:58:04,010 INFO autoreload 52847 140706183268160 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:58:04,820 INFO autoreload 53161 140275565320000 Watching for file changes with StatReloader
+2021-11-18 16:58:06,603 WARNING log 53161 140275324090112 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:58:06,660 WARNING log 53161 140275353462528 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:58:06,719 WARNING log 53161 140275340875520 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:58:06,750 WARNING log 53161 140275361855232 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:58:06,775 WARNING log 53161 140275332482816 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:58:12,052 WARNING log 53161 140275361855232 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:58:12,055 WARNING log 53161 140275332482816 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:58:12,420 WARNING log 53161 140275361855232 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:58:12,422 WARNING log 53161 140275340875520 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:58:12,449 WARNING log 53161 140275332482816 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:58:20,123 WARNING log 53161 140275332482816 Not Found: /manage/
+2021-11-18 16:58:29,559 WARNING log 53161 140275340875520 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 16:58:29,598 WARNING log 53161 140275332482816 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 16:58:29,601 WARNING log 53161 140275361855232 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 16:58:29,622 WARNING log 53161 140275353462528 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 16:58:29,636 WARNING log 53161 140275324090112 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 16:59:10,337 INFO autoreload 53161 140275565320000 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 16:59:11,042 INFO autoreload 53384 140625660278592 Watching for file changes with StatReloader
+2021-11-18 17:00:20,558 INFO autoreload 53384 140625660278592 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:00:21,230 INFO autoreload 53550 140337034114880 Watching for file changes with StatReloader
+2021-11-18 17:00:23,490 WARNING log 53550 140336807999232 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:00:23,552 WARNING log 53550 140336830027520 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:00:23,573 WARNING log 53550 140336821634816 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:00:23,584 WARNING log 53550 140336790951680 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:00:23,602 WARNING log 53550 140336799606528 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:00:25,860 WARNING log 53550 140336799606528 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:00:25,897 WARNING log 53550 140336790951680 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:00:26,071 WARNING log 53550 140336821634816 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:00:26,087 WARNING log 53550 140336830027520 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:00:26,113 WARNING log 53550 140336807999232 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:00:30,327 WARNING log 53550 140336807999232 Not Found: /manage/
+2021-11-18 17:00:48,064 INFO autoreload 53550 140337034114880 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:00:48,715 INFO autoreload 53726 140536394839872 Watching for file changes with StatReloader
+2021-11-18 17:00:52,331 WARNING log 53726 140536019150592 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:00:52,466 WARNING log 53726 140536027543296 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:00:52,504 WARNING log 53726 140536010757888 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:00:52,525 WARNING log 53726 140536257345280 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:00:52,529 WARNING log 53726 140536248952576 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:00:54,461 WARNING log 53726 140536248952576 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:00:54,470 WARNING log 53726 140536257345280 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:00:54,799 WARNING log 53726 140536010757888 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:00:54,804 WARNING log 53726 140536248952576 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:00:54,821 WARNING log 53726 140536257345280 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:00:58,686 WARNING log 53726 140536010757888 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:00:58,734 WARNING log 53726 140536019150592 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:00:58,753 WARNING log 53726 140536002365184 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:00:58,769 WARNING log 53726 140536257345280 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:00:58,784 WARNING log 53726 140536027543296 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:00:58,901 WARNING log 53726 140536257345280 Not Found: /favicon.ico
+2021-11-18 17:02:02,962 INFO autoreload 53726 140536394839872 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:02:03,635 INFO autoreload 53898 140339165230912 Watching for file changes with StatReloader
+2021-11-18 17:02:08,133 INFO autoreload 53898 140339165230912 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:02:08,888 INFO autoreload 53961 140262007744320 Watching for file changes with StatReloader
+2021-11-18 17:02:20,664 INFO autoreload 53961 140262007744320 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:02:21,295 INFO autoreload 54067 140222135678784 Watching for file changes with StatReloader
+2021-11-18 17:02:31,031 INFO autoreload 54067 140222135678784 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:02:31,684 INFO autoreload 54154 140314157074240 Watching for file changes with StatReloader
+2021-11-18 17:03:36,332 INFO autoreload 54154 140314157074240 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:03:36,939 INFO autoreload 54269 140260543739712 Watching for file changes with StatReloader
+2021-11-18 17:03:46,678 INFO autoreload 54269 140260543739712 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:03:47,310 INFO autoreload 54354 139848011720512 Watching for file changes with StatReloader
+2021-11-18 17:04:09,570 INFO autoreload 54354 139848011720512 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:04:10,197 INFO autoreload 54453 140445604427584 Watching for file changes with StatReloader
+2021-11-18 17:04:11,508 WARNING log 54453 140445400872704 Not Found: /manage/
+2021-11-18 17:04:18,184 WARNING log 54453 140445400872704 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:04:18,243 WARNING log 54453 140445153748736 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:04:18,253 WARNING log 54453 140445162141440 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:04:18,266 WARNING log 54453 140445392480000 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:04:18,284 WARNING log 54453 140445377009408 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:04:21,616 WARNING log 54453 140445392480000 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:04:21,661 WARNING log 54453 140445162141440 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:04:21,685 WARNING log 54453 140445153748736 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:04:21,699 WARNING log 54453 140445400872704 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:04:21,716 WARNING log 54453 140445145356032 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:04:22,347 WARNING log 54453 140445400872704 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:04:22,429 WARNING log 54453 140445153748736 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:04:22,456 WARNING log 54453 140445131982592 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:04:22,470 WARNING log 54453 140445162141440 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:04:22,480 WARNING log 54453 140445392480000 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:04:22,704 WARNING log 54453 140445392480000 Not Found: /favicon.ico
+2021-11-18 17:04:31,640 WARNING log 54453 140445392480000 Not Found: /manage/
+2021-11-18 17:04:54,288 WARNING log 54453 140445400872704 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:04:54,366 WARNING log 54453 140445392480000 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:04:54,385 WARNING log 54453 140445131982592 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:04:54,404 WARNING log 54453 140445153748736 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:04:54,425 WARNING log 54453 140445162141440 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:05:02,744 INFO autoreload 54453 140445604427584 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:05:03,476 INFO autoreload 54750 139767961229120 Watching for file changes with StatReloader
+2021-11-18 17:07:07,351 INFO autoreload 54750 139767961229120 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:07:07,984 INFO autoreload 55161 140310706530112 Watching for file changes with StatReloader
+2021-11-18 17:07:15,608 INFO autoreload 55161 140310706530112 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:07:16,263 INFO autoreload 55255 140474255157056 Watching for file changes with StatReloader
+2021-11-18 17:07:20,952 WARNING log 55255 140474117662464 Not Found: /admdd
+2021-11-18 17:07:23,386 WARNING log 55255 140474117662464 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:07:23,428 WARNING log 55255 140474094847744 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:07:23,437 WARNING log 55255 140473876342528 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:07:23,452 WARNING log 55255 140473884735232 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:07:23,464 WARNING log 55255 140474109269760 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:08:13,043 INFO autoreload 55255 140474255157056 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:08:13,678 INFO autoreload 55427 140086399944512 Watching for file changes with StatReloader
+2021-11-18 17:09:00,952 INFO autoreload 55427 140086399944512 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:09:01,541 INFO autoreload 55620 140560154036032 Watching for file changes with StatReloader
+2021-11-18 17:09:17,311 WARNING log 55620 140560016541440 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:09:17,329 WARNING log 55620 140559784081152 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:09:17,348 WARNING log 55620 140560008148736 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:09:17,361 WARNING log 55620 140559995037440 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:09:17,364 WARNING log 55620 140559775688448 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:09:22,088 ERROR log 55620 140559775688448 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 380, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+2021-11-18 17:09:32,869 WARNING log 55620 140559775688448 Not Found: /manage/logout
+2021-11-18 17:10:37,899 INFO autoreload 55620 140560154036032 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:10:38,543 INFO autoreload 56015 139894157760320 Watching for file changes with StatReloader
+2021-11-18 17:11:18,480 INFO autoreload 56015 139894157760320 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:11:19,120 INFO autoreload 56149 140611362764608 Watching for file changes with StatReloader
+2021-11-18 17:11:21,540 INFO autoreload 56149 140611362764608 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:11:22,155 INFO autoreload 56209 140654294431552 Watching for file changes with StatReloader
+2021-11-18 17:12:43,897 INFO autoreload 56209 140654294431552 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:12:44,510 INFO autoreload 56336 139716843628352 Watching for file changes with StatReloader
+2021-11-18 17:12:46,877 WARNING log 56336 139716706133760 Not Found: /admin/login/
+2021-11-18 17:12:51,413 WARNING log 56336 139716706133760 Not Found: /
+2021-11-18 17:13:12,100 WARNING log 56336 139716592912128 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:13:12,121 WARNING log 56336 139716609697536 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:13:12,169 WARNING log 56336 139716628313856 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:13:12,187 WARNING log 56336 139716601304832 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:13:12,200 WARNING log 56336 139716706133760 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:13:12,389 WARNING log 56336 139716706133760 Not Found: /favicon.ico
+2021-11-18 17:13:19,347 WARNING log 56336 139716583470848 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:13:19,350 WARNING log 56336 139716628313856 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:13:19,375 WARNING log 56336 139716609697536 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:13:19,407 WARNING log 56336 139716592912128 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:13:19,441 WARNING log 56336 139716601304832 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:13:19,558 WARNING log 56336 139716133373696 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:13:19,587 WARNING log 56336 139716124980992 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:13:19,604 WARNING log 56336 139716141766400 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:13:19,614 WARNING log 56336 139716158551808 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:13:19,630 WARNING log 56336 139716150159104 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:13:19,767 WARNING log 56336 139716150159104 Not Found: /favicon.ico
+2021-11-18 17:13:34,143 INFO autoreload 56336 139716843628352 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:13:34,786 INFO autoreload 56630 140655269685056 Watching for file changes with StatReloader
+2021-11-18 17:14:53,017 INFO autoreload 56630 140655269685056 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:14:53,619 INFO autoreload 56804 139682919929664 Watching for file changes with StatReloader
+2021-11-18 17:15:28,341 INFO autoreload 56804 139682919929664 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:15:28,983 INFO autoreload 56899 139910996166464 Watching for file changes with StatReloader
+2021-11-18 17:15:31,227 WARNING log 56899 139910618797824 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:15:31,254 WARNING log 56899 139910635845376 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:15:31,316 WARNING log 56899 139910858671872 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:15:31,327 WARNING log 56899 139910627190528 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:15:31,339 WARNING log 56899 139910850279168 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:15:33,569 WARNING log 56899 139910850279168 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:15:33,606 WARNING log 56899 139910635845376 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:15:33,620 WARNING log 56899 139910627190528 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:15:33,640 WARNING log 56899 139910858671872 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:15:33,650 WARNING log 56899 139910618797824 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:15:48,956 WARNING log 56899 139910618797824 Not Found: /lms/
+2021-11-18 17:15:58,905 WARNING log 56899 139910618797824 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:15:58,936 WARNING log 56899 139910627190528 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:15:58,959 WARNING log 56899 139910858671872 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:15:58,969 WARNING log 56899 139910635845376 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:15:58,990 WARNING log 56899 139910850279168 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:16:22,085 WARNING log 56899 139910627190528 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:16:22,115 WARNING log 56899 139910618797824 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:16:22,127 WARNING log 56899 139910635845376 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:16:22,129 WARNING log 56899 139910850279168 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:16:22,144 WARNING log 56899 139910858671872 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:16:28,406 INFO autoreload 56899 139910996166464 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:16:29,096 INFO autoreload 57176 140137974327104 Watching for file changes with StatReloader
+2021-11-18 17:16:53,117 INFO autoreload 57176 140137974327104 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:16:53,725 INFO autoreload 57300 139809293477696 Watching for file changes with StatReloader
+2021-11-18 17:17:00,251 INFO autoreload 57300 139809293477696 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:17:00,864 INFO autoreload 57368 140109120726848 Watching for file changes with StatReloader
+2021-11-18 17:17:22,136 INFO autoreload 57368 140109120726848 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:17:22,741 INFO autoreload 57437 140255982475072 Watching for file changes with StatReloader
+2021-11-18 17:17:42,766 INFO autoreload 57437 140255982475072 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:17:43,407 INFO autoreload 57576 140696120153920 Watching for file changes with StatReloader
+2021-11-18 17:17:46,326 WARNING log 57576 140695895095040 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:17:46,328 WARNING log 57576 140695915550464 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:17:46,354 WARNING log 57576 140695679530752 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:17:46,357 WARNING log 57576 140695907157760 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:17:46,370 WARNING log 57576 140695671138048 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:17:57,828 WARNING log 57576 140695907157760 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:17:57,862 WARNING log 57576 140695671138048 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:17:57,916 WARNING log 57576 140695915550464 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:17:57,923 WARNING log 57576 140695679530752 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:17:57,933 WARNING log 57576 140695895095040 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:18:32,247 INFO autoreload 57576 140696120153920 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:18:32,906 INFO autoreload 57816 139848563205952 Watching for file changes with StatReloader
+2021-11-18 17:18:38,258 WARNING log 57816 139848351213312 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:18:38,278 WARNING log 57816 139848359606016 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:18:38,295 WARNING log 57816 139848327874304 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:18:38,308 WARNING log 57816 139848319481600 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:18:38,319 WARNING log 57816 139848336267008 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:18:53,011 INFO autoreload 57816 139848563205952 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:18:53,620 INFO autoreload 57932 140643226867520 Watching for file changes with StatReloader
+2021-11-18 17:20:59,447 INFO autoreload 57932 140643226867520 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:21:00,077 INFO autoreload 58345 140394836170560 Watching for file changes with StatReloader
+2021-11-18 17:21:07,650 INFO autoreload 58345 140394836170560 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:21:08,251 INFO autoreload 58415 140429876741952 Watching for file changes with StatReloader
+2021-11-18 17:21:19,965 INFO autoreload 58415 140429876741952 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:21:20,556 INFO autoreload 58466 140399352743744 Watching for file changes with StatReloader
+2021-11-18 17:21:39,646 INFO autoreload 58466 140399352743744 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:21:40,244 INFO autoreload 58537 140290586810176 Watching for file changes with StatReloader
+2021-11-18 17:21:53,005 INFO autoreload 58537 140290586810176 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:21:53,607 INFO autoreload 58619 140549526140736 Watching for file changes with StatReloader
+2021-11-18 17:21:55,852 WARNING log 58619 140549306705664 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:21:55,889 WARNING log 58619 140549315098368 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:21:55,989 WARNING log 58619 140549281527552 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:21:56,004 WARNING log 58619 140549289920256 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:21:56,007 WARNING log 58619 140549298312960 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:22:50,448 INFO autoreload 58619 140549526140736 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:22:51,067 INFO autoreload 58869 139778031830848 Watching for file changes with StatReloader
+2021-11-18 17:23:08,066 INFO autoreload 58869 139778031830848 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:23:08,668 INFO autoreload 58962 140523187525440 Watching for file changes with StatReloader
+2021-11-18 17:23:12,683 WARNING log 58962 140522974488320 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:23:12,690 WARNING log 58962 140522982881024 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:23:12,778 WARNING log 58962 140522952984320 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:23:12,791 WARNING log 58962 140522961377024 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:23:12,804 WARNING log 58962 140522739988224 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:24:19,509 INFO autoreload 58962 140523187525440 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:24:20,178 INFO autoreload 59097 140050353887040 Watching for file changes with StatReloader
+2021-11-18 17:24:22,288 WARNING log 59097 140050111497984 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:24:22,300 WARNING log 59097 140050128283392 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:24:22,318 WARNING log 59097 140050150311680 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:24:22,320 WARNING log 59097 140050119890688 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:24:22,322 WARNING log 59097 140050141918976 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:24:24,258 WARNING log 59097 140050141918976 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:24:24,274 WARNING log 59097 140050119890688 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:24:24,319 WARNING log 59097 140050111497984 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:24:24,338 WARNING log 59097 140050128283392 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:24:24,344 WARNING log 59097 140050150311680 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:27:44,488 INFO autoreload 59097 140050353887040 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:27:45,101 INFO autoreload 59467 140476210984768 Watching for file changes with StatReloader
+2021-11-18 17:28:39,412 INFO autoreload 59467 140476210984768 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:28:40,025 INFO autoreload 59605 140649284683584 Watching for file changes with StatReloader
+2021-11-18 17:29:05,349 INFO autoreload 59605 140649284683584 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:29:05,939 INFO autoreload 59684 140075593307968 Watching for file changes with StatReloader
+2021-11-18 17:29:14,226 WARNING log 59684 140075351127808 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:29:14,284 WARNING log 59684 140075380238080 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:29:14,286 WARNING log 59684 140075388630784 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:29:14,298 WARNING log 59684 140075359520512 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:29:14,312 WARNING log 59684 140075368175360 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:29:19,714 ERROR log 59684 140075368175360 Internal Server Error: /lms/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2021-11-18 17:29:32,340 INFO autoreload 59684 140075593307968 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:29:32,974 INFO autoreload 59842 139836589664064 Watching for file changes with StatReloader
+2021-11-18 17:30:09,885 ERROR log 59842 139836385023744 Internal Server Error: /lms/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard' not found. 'dashboard' is not a valid view function or pattern name.
+2021-11-18 17:30:35,490 INFO autoreload 59842 139836589664064 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:30:36,096 INFO autoreload 60044 140196877862720 Watching for file changes with StatReloader
+2021-11-18 17:31:24,192 INFO autoreload 60044 140196877862720 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:31:24,843 INFO autoreload 60213 139628389304128 Watching for file changes with StatReloader
+2021-11-18 17:31:25,787 WARNING log 60213 139628178831104 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:31:28,425 WARNING log 60213 139628178831104 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:31:46,414 WARNING log 60213 139628178831104 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:32:18,309 INFO autoreload 60213 139628389304128 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:32:18,961 INFO autoreload 60391 140046113486656 Watching for file changes with StatReloader
+2021-11-18 17:32:26,944 WARNING log 60391 140045908924160 Not Found: /lms/logout/lms/dashboard
+2021-11-18 17:32:51,445 INFO autoreload 60391 140046113486656 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:32:52,068 INFO autoreload 60525 139988528342848 Watching for file changes with StatReloader
+2021-11-18 17:32:54,210 WARNING log 60525 139988323735296 Not Found: /lms/logout/lms/login
+2021-11-18 17:33:18,159 INFO autoreload 60525 139988528342848 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:33:18,816 INFO autoreload 60609 140373952800576 Watching for file changes with StatReloader
+2021-11-18 17:33:20,358 WARNING log 60609 140373749073664 Not Found: /lms/logout/lms/login
+2021-11-18 17:33:25,896 WARNING log 60609 140373749073664 Not Found: /lms/logout/lms/login
+2021-11-18 17:33:28,349 WARNING log 60609 140373749073664 Not Found: /lms/logout/lms/login
+2021-11-18 17:33:57,609 INFO autoreload 60609 140373952800576 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:33:58,242 INFO autoreload 60763 140645421504320 Watching for file changes with StatReloader
+2021-11-18 17:34:03,732 INFO autoreload 60763 140645421504320 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:34:04,360 INFO autoreload 60884 139819063969600 Watching for file changes with StatReloader
+2021-11-18 17:34:23,261 WARNING log 60884 139818926475008 Not Found: /lms/logout/lms/login
+2021-11-18 17:34:27,158 WARNING log 60884 139818926475008 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:34:30,691 WARNING log 60884 139818926475008 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:34:34,916 WARNING log 60884 139818926475008 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:34:57,255 WARNING log 60884 139818926475008 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:35:08,924 INFO autoreload 61217 140694928480064 Watching for file changes with StatReloader
+2021-11-18 17:35:17,443 WARNING log 61217 140694723835648 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:35:25,138 WARNING log 61217 140694723835648 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:36:44,709 WARNING log 61217 140694723835648 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:37:40,820 WARNING log 61217 140694723835648 Not Found: /dist/img/user1-128x128.jpg
+2021-11-18 17:37:40,850 WARNING log 61217 140694471309056 Not Found: /dist/img/AdminLTELogo.png
+2021-11-18 17:37:40,864 WARNING log 61217 140694700496640 Not Found: /dist/img/user8-128x128.jpg
+2021-11-18 17:37:40,886 WARNING log 61217 140694715442944 Not Found: /dist/img/user3-128x128.jpg
+2021-11-18 17:37:40,896 WARNING log 61217 140694462654208 Not Found: /dist/img/user2-160x160.jpg
+2021-11-18 17:37:40,940 WARNING log 61217 140694449280768 Not Found: /favicon.ico
+2021-11-18 17:38:05,261 INFO autoreload 61217 140694928480064 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:38:05,905 INFO autoreload 61847 140083545773888 Watching for file changes with StatReloader
+2021-11-18 17:38:44,170 INFO autoreload 62042 140154882656064 Watching for file changes with StatReloader
+2021-11-18 17:39:14,519 INFO autoreload 62042 140154882656064 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:39:15,169 INFO autoreload 62165 140687920658240 Watching for file changes with StatReloader
+2021-11-18 17:39:23,826 INFO autoreload 62165 140687920658240 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:39:24,467 INFO autoreload 62295 140078422013760 Watching for file changes with StatReloader
+2021-11-18 17:39:34,315 WARNING log 62295 140078210873088 Not Found: /accounts/profile/
+2021-11-18 17:39:34,896 WARNING log 62295 140078210873088 Not Found: /favicon.ico
+2021-11-18 17:39:53,954 INFO autoreload 62295 140078422013760 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:39:54,605 INFO autoreload 62560 140424351807296 Watching for file changes with StatReloader
+2021-11-18 17:40:10,644 INFO autoreload 62560 140424351807296 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:40:11,245 INFO autoreload 62684 140188651886400 Watching for file changes with StatReloader
+2021-11-18 17:40:17,805 ERROR log 62684 140188447237888 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:40:29,413 INFO autoreload 62684 140188651886400 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:40:30,077 INFO autoreload 62786 140281196808000 Watching for file changes with StatReloader
+2021-11-18 17:40:42,332 ERROR log 62786 140280992126720 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:40:42,952 WARNING log 62786 140280983734016 Not Found: /favicon.ico
+2021-11-18 17:40:52,590 INFO autoreload 62955 140185229756224 Watching for file changes with StatReloader
+2021-11-18 17:40:54,958 ERROR log 62955 140185025128192 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:40:55,458 WARNING log 62955 140185025128192 Not Found: /favicon.ico
+2021-11-18 17:41:37,797 ERROR log 62955 140185025128192 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:41:58,735 INFO autoreload 62955 140185229756224 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:41:59,339 INFO autoreload 63193 139958866323264 Watching for file changes with StatReloader
+2021-11-18 17:42:17,290 INFO autoreload 63193 139958866323264 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 17:42:17,901 INFO autoreload 63294 140517453190976 Watching for file changes with StatReloader
+2021-11-18 17:42:43,904 WARNING log 63294 140517315696384 Not Found: /
+2021-11-18 17:43:00,530 WARNING log 63294 140517315696384 Not Found: /manage/
+2021-11-18 17:43:22,938 INFO autoreload 63294 140517453190976 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:43:23,541 INFO autoreload 63785 140607353616192 Watching for file changes with StatReloader
+2021-11-18 17:43:50,735 INFO autoreload 63785 140607353616192 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:43:51,357 INFO autoreload 63868 139999252551488 Watching for file changes with StatReloader
+2021-11-18 17:43:54,824 INFO autoreload 63868 139999252551488 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:43:55,469 INFO autoreload 63919 140246582998848 Watching for file changes with StatReloader
+2021-11-18 17:43:56,242 WARNING log 63919 140246379431680 Not Found: /manage/
+2021-11-18 17:43:57,950 WARNING log 63919 140246379431680 Not Found: /manage/
+2021-11-18 17:44:01,999 INFO autoreload 63974 140388510811968 Watching for file changes with StatReloader
+2021-11-18 17:44:04,148 WARNING log 63974 140388306175744 Not Found: /manage/
+2021-11-18 17:44:07,940 WARNING log 63974 140388306175744 Not Found: /
+2021-11-18 17:44:15,798 INFO autoreload 63974 140388510811968 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:44:16,528 INFO autoreload 64081 140374035285824 Watching for file changes with StatReloader
+2021-11-18 17:44:27,311 INFO autoreload 64081 140374035285824 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:44:27,916 INFO autoreload 64214 139917272737600 Watching for file changes with StatReloader
+2021-11-18 17:44:29,894 WARNING log 64214 139917068093184 Not Found: /
+2021-11-18 17:44:31,636 WARNING log 64214 139917068093184 Not Found: /
+2021-11-18 17:44:38,661 ERROR log 64214 139917068093184 Internal Server Error: /manage/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:44:44,014 INFO autoreload 64214 139917272737600 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:44:44,644 INFO autoreload 64356 140055344449344 Watching for file changes with StatReloader
+2021-11-18 17:44:47,154 ERROR log 64356 140055206954752 Internal Server Error: /manage/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'customauth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'customauth' is not a registered namespace
+2021-11-18 17:45:51,638 INFO autoreload 64356 140055344449344 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:45:52,239 INFO autoreload 64525 140203449034560 Watching for file changes with StatReloader
+2021-11-18 17:46:00,964 ERROR log 64525 140203311539968 Internal Server Error: /manage/logout/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 250, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 380, in logout
+    return LogoutView.as_view(**defaults)(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 119, in dispatch
+    next_page = self.get_next_page()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/contrib/auth/views.py", line 133, in get_next_page
+    next_page = resolve_url(settings.LOGOUT_REDIRECT_URL)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2021-11-18 17:46:07,494 INFO autoreload 64525 140203449034560 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:46:08,093 INFO autoreload 64649 139972927657792 Watching for file changes with StatReloader
+2021-11-18 17:46:26,016 INFO autoreload 64649 139972927657792 /home/shosen/projects/shosen_lms/lms/urls.py changed, reloading.
+2021-11-18 17:46:26,606 INFO autoreload 64718 140299910416192 Watching for file changes with StatReloader
+2021-11-18 17:46:55,836 INFO autoreload 64718 140299910416192 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:46:56,426 INFO autoreload 64818 140074762348352 Watching for file changes with StatReloader
+2021-11-18 17:47:24,908 INFO autoreload 64818 140074762348352 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:47:25,533 INFO autoreload 64970 140276372481856 Watching for file changes with StatReloader
+2021-11-18 17:47:36,325 INFO autoreload 64970 140276372481856 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:47:36,925 INFO autoreload 65058 140263234803520 Watching for file changes with StatReloader
+2021-11-18 17:47:39,325 INFO autoreload 65058 140263234803520 /home/shosen/projects/shosen_lms/customauth/urls.py changed, reloading.
+2021-11-18 17:47:39,985 INFO autoreload 65118 139711424489280 Watching for file changes with StatReloader
+2021-11-18 17:47:46,522 INFO autoreload 65118 139711424489280 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:47:47,123 INFO autoreload 65209 140328377173824 Watching for file changes with StatReloader
+2021-11-18 17:48:04,832 WARNING log 65209 140328173606656 Not Found: /favicon.ico
+2021-11-18 17:48:11,881 WARNING log 65209 140328173606656 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:48:24,682 WARNING log 65209 140328173606656 Not Found: /lms/dashboard/lms/login/
+2021-11-18 17:48:29,286 INFO autoreload 65209 140328377173824 /home/shosen/projects/shosen_lms/lms/settings.py changed, reloading.
+2021-11-18 17:48:29,953 INFO autoreload 65434 140069064386368 Watching for file changes with StatReloader
+2021-11-18 17:49:20,873 INFO autoreload 65434 140069064386368 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:49:21,509 INFO autoreload 65563 140600263055168 Watching for file changes with StatReloader
+2021-11-18 17:49:45,719 INFO autoreload 65563 140600263055168 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:49:46,388 INFO autoreload 65731 140260773873472 Watching for file changes with StatReloader
+2021-11-18 17:49:49,844 INFO autoreload 65731 140260773873472 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:49:50,457 INFO autoreload 65790 140216968595264 Watching for file changes with StatReloader
+2021-11-18 17:50:15,790 INFO autoreload 65790 140216968595264 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:50:16,392 INFO autoreload 65886 139851627546432 Watching for file changes with StatReloader
+2021-11-18 17:50:53,870 INFO autoreload 65886 139851627546432 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:50:54,498 INFO autoreload 65973 139956163913536 Watching for file changes with StatReloader
+2021-11-18 17:51:02,145 INFO autoreload 65973 139956163913536 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:51:02,758 INFO autoreload 66096 140002210015040 Watching for file changes with StatReloader
+2021-11-18 17:51:12,444 INFO autoreload 66096 140002210015040 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:51:13,128 INFO autoreload 66192 140576399787840 Watching for file changes with StatReloader
+2021-11-18 17:51:24,924 INFO autoreload 66192 140576399787840 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:51:25,509 INFO autoreload 66304 139639123552064 Watching for file changes with StatReloader
+2021-11-18 17:51:40,233 INFO autoreload 66304 139639123552064 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 17:51:40,881 INFO autoreload 66514 140011664504640 Watching for file changes with StatReloader
+2021-11-18 17:52:08,348 INFO autoreload 66514 140011664504640 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:52:08,954 INFO autoreload 66643 140477257361216 Watching for file changes with StatReloader
+2021-11-18 17:52:41,691 INFO autoreload 66643 140477257361216 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:52:42,283 INFO autoreload 66747 139700450416448 Watching for file changes with StatReloader
+2021-11-18 17:52:59,198 INFO autoreload 66747 139700450416448 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:52:59,812 INFO autoreload 66828 140380901992256 Watching for file changes with StatReloader
+2021-11-18 17:53:08,442 INFO autoreload 66828 140380901992256 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:53:09,039 INFO autoreload 66904 139838545504064 Watching for file changes with StatReloader
+2021-11-18 17:54:08,843 INFO autoreload 66904 139838545504064 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:54:09,499 INFO autoreload 67007 140370142361408 Watching for file changes with StatReloader
+2021-11-18 17:54:28,512 INFO autoreload 67007 140370142361408 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:54:29,171 INFO autoreload 67147 140076425934656 Watching for file changes with StatReloader
+2021-11-18 17:54:38,792 INFO autoreload 67147 140076425934656 /home/shosen/projects/shosen_lms/customauth/views/dashboard_view.py changed, reloading.
+2021-11-18 17:54:39,431 INFO autoreload 67245 139943679665984 Watching for file changes with StatReloader
+2021-11-18 17:54:44,959 INFO autoreload 67245 139943679665984 /home/shosen/projects/shosen_lms/customauth/views/logout_view.py changed, reloading.
+2021-11-18 17:54:45,602 INFO autoreload 67314 140343684712256 Watching for file changes with StatReloader
+2021-11-18 17:55:24,385 INFO autoreload 67314 140343684712256 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:55:25,006 INFO autoreload 67455 140332310112064 Watching for file changes with StatReloader
+2021-11-18 17:55:31,578 INFO autoreload 67455 140332310112064 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 17:55:32,186 INFO autoreload 67543 140286756796224 Watching for file changes with StatReloader
+2021-11-18 17:55:34,547 INFO autoreload 67543 140286756796224 /home/shosen/projects/shosen_lms/customauth/forms/__init__.py changed, reloading.
+2021-11-18 17:55:35,209 INFO autoreload 67600 140636638521152 Watching for file changes with StatReloader
+2021-11-18 17:56:19,235 INFO autoreload 67600 140636638521152 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:56:19,841 INFO autoreload 67710 140333781305152 Watching for file changes with StatReloader
+2021-11-18 17:56:27,336 INFO autoreload 67710 140333781305152 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:56:27,933 INFO autoreload 67788 139827957618496 Watching for file changes with StatReloader
+2021-11-18 17:57:49,395 INFO autoreload 67788 139827957618496 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:57:49,991 INFO autoreload 67871 139770805069632 Watching for file changes with StatReloader
+2021-11-18 17:58:12,053 INFO autoreload 67871 139770805069632 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:58:12,690 INFO autoreload 68017 140052374443840 Watching for file changes with StatReloader
+2021-11-18 17:58:28,629 INFO autoreload 68017 140052374443840 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 17:58:29,225 INFO autoreload 68111 139971473758016 Watching for file changes with StatReloader
+2021-11-18 17:59:55,820 INFO autoreload 68111 139971473758016 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 17:59:56,440 INFO autoreload 68324 140361596385088 Watching for file changes with StatReloader
+2021-11-18 18:00:38,140 INFO autoreload 68324 140361596385088 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:00:38,812 INFO autoreload 68428 139744279291712 Watching for file changes with StatReloader
+2021-11-18 18:01:12,971 ERROR log 68428 139744074528512 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 32, in clean
+    raise self.get_invalid_login_error()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 40, in get_invalid_login_error
+    params={'username': self.username_field.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username_field'
+2021-11-18 18:01:13,525 WARNING log 68428 139744074528512 Not Found: /favicon.ico
+2021-11-18 18:01:32,185 INFO autoreload 68428 139744279291712 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:01:32,793 INFO autoreload 68756 140489954355008 Watching for file changes with StatReloader
+2021-11-18 18:01:36,555 ERROR log 68756 140489816860416 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 32, in clean
+    raise self.get_invalid_login_error()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 40, in get_invalid_login_error
+    params={'username': self.username.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username'
+2021-11-18 18:01:40,459 INFO autoreload 68756 140489954355008 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:01:41,115 INFO autoreload 68845 139997931419456 Watching for file changes with StatReloader
+2021-11-18 18:01:42,489 ERROR log 68845 139997727926016 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 32, in clean
+    raise self.get_invalid_login_error()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 40, in get_invalid_login_error
+    params={'username': self.username},
+AttributeError: 'LMSLoginForm' object has no attribute 'username'
+2021-11-18 18:01:55,140 INFO autoreload 68845 139997931419456 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:01:55,783 INFO autoreload 68926 139998783469376 Watching for file changes with StatReloader
+2021-11-18 18:02:11,837 INFO autoreload 68926 139998783469376 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:02:12,492 INFO autoreload 69003 139670659802944 Watching for file changes with StatReloader
+2021-11-18 18:02:14,829 ERROR log 69003 139670455138048 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 32, in clean
+    raise self.get_invalid_login_error()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 40, in get_invalid_login_error
+    params={'username': self.username_field.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username_field'
+2021-11-18 18:03:01,923 INFO autoreload 69003 139670659802944 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:03:02,575 INFO autoreload 69100 140021518899008 Watching for file changes with StatReloader
+2021-11-18 18:03:03,860 ERROR log 69100 140021382452992 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 35, in clean
+    params={'username': self.username_field.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username_field'
+2021-11-18 18:03:13,090 ERROR log 69100 140021382452992 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 35, in clean
+    params={'username': self.username_field.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username_field'
+2021-11-18 18:03:13,581 WARNING log 69100 140021382452992 Not Found: /favicon.ico
+2021-11-18 18:03:24,012 INFO autoreload 69100 140021518899008 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:03:24,655 INFO autoreload 69243 140240073873216 Watching for file changes with StatReloader
+2021-11-18 18:03:26,502 ERROR log 69243 140239869249280 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 35, in clean
+    params={'username': self.username.verbose_name},
+AttributeError: 'LMSLoginForm' object has no attribute 'username'
+2021-11-18 18:03:43,680 INFO autoreload 69243 140240073873216 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:03:44,323 INFO autoreload 69330 139635766425408 Watching for file changes with StatReloader
+2021-11-18 18:03:45,699 ERROR log 69330 139635560806144 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    if form.is_valid():
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/shosen/projects/shosen_lms/customauth/forms/login_form.py", line 35, in clean
+    params={'username': self.username},
+AttributeError: 'LMSLoginForm' object has no attribute 'username'
+2021-11-18 18:05:57,766 INFO autoreload 69330 139635766425408 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:05:58,403 INFO autoreload 69706 139907447588672 Watching for file changes with StatReloader
+2021-11-18 18:06:14,625 WARNING log 69706 139907066484480 Not Found: /favicon.ico
+2021-11-18 18:06:40,274 INFO autoreload 69706 139907447588672 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:06:40,953 INFO autoreload 69915 140230192691008 Watching for file changes with StatReloader
+2021-11-18 18:07:00,043 INFO autoreload 69915 140230192691008 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:07:00,707 INFO autoreload 70015 140595962275648 Watching for file changes with StatReloader
+2021-11-18 18:07:10,361 INFO autoreload 70015 140595962275648 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:07:10,960 INFO autoreload 70095 140055415338816 Watching for file changes with StatReloader
+2021-11-18 18:07:30,968 INFO autoreload 70095 140055415338816 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:07:31,619 INFO autoreload 70197 140535456016192 Watching for file changes with StatReloader
+2021-11-18 18:08:13,549 INFO autoreload 70197 140535456016192 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:08:14,163 INFO autoreload 70307 140338718123840 Watching for file changes with StatReloader
+2021-11-18 18:08:17,593 INFO autoreload 70307 140338718123840 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:08:18,239 INFO autoreload 70365 139734795511616 Watching for file changes with StatReloader
+2021-11-18 18:09:01,300 INFO autoreload 70365 139734795511616 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:09:01,950 INFO autoreload 70452 139827194496832 Watching for file changes with StatReloader
+2021-11-18 18:09:18,609 ERROR log 70452 139826989881088 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 28, in post
+    password=form.cleaned_data['passwordusername'],
+KeyError: 'passwordusername'
+2021-11-18 18:09:19,197 WARNING log 70452 139826989881088 Not Found: /favicon.ico
+2021-11-18 18:09:56,176 INFO autoreload 70452 139827194496832 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:09:56,838 INFO autoreload 70723 140061489289024 Watching for file changes with StatReloader
+2021-11-18 18:10:19,012 INFO autoreload 70723 140061489289024 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:10:19,629 INFO autoreload 70838 139875478738752 Watching for file changes with StatReloader
+2021-11-18 18:10:29,286 INFO autoreload 70838 139875478738752 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:10:29,905 INFO autoreload 70907 140029400995648 Watching for file changes with StatReloader
+2021-11-18 18:10:55,148 INFO autoreload 70907 140029400995648 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:10:55,755 INFO autoreload 71022 139890725807936 Watching for file changes with StatReloader
+2021-11-18 18:11:25,053 INFO autoreload 71022 139890725807936 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:11:25,645 INFO autoreload 71101 139850186270528 Watching for file changes with StatReloader
+2021-11-18 18:12:13,566 INFO autoreload 71101 139850186270528 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:12:14,146 INFO autoreload 71202 139737978632000 Watching for file changes with StatReloader
+2021-11-18 18:12:18,546 INFO autoreload 71202 139737978632000 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:12:19,153 INFO autoreload 71253 139930947032896 Watching for file changes with StatReloader
+2021-11-18 18:12:27,760 INFO autoreload 71253 139930947032896 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:12:28,387 INFO autoreload 71336 140315596396352 Watching for file changes with StatReloader
+2021-11-18 18:13:41,502 INFO autoreload 71336 140315596396352 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:13:42,098 INFO autoreload 71442 140473502811968 Watching for file changes with StatReloader
+2021-11-18 18:14:20,756 INFO autoreload 71442 140473502811968 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:14:21,360 INFO autoreload 71541 139637117130560 Watching for file changes with StatReloader
+2021-11-18 18:14:33,785 INFO autoreload 71627 139713717512000 Watching for file changes with StatReloader
+2021-11-18 18:15:38,668 INFO autoreload 71627 139713717512000 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:15:39,264 INFO autoreload 71723 140320292902720 Watching for file changes with StatReloader
+2021-11-18 18:15:52,963 INFO autoreload 71723 140320292902720 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:15:53,592 INFO autoreload 71810 140051237787456 Watching for file changes with StatReloader
+2021-11-18 18:16:00,094 INFO autoreload 71810 140051237787456 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:16:00,714 INFO autoreload 71907 139994656282432 Watching for file changes with StatReloader
+2021-11-18 18:16:04,117 INFO autoreload 71907 139994656282432 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:16:04,710 INFO autoreload 71944 140048238655296 Watching for file changes with StatReloader
+2021-11-18 18:18:20,263 INFO autoreload 71944 140048238655296 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:18:20,890 INFO autoreload 72550 140646734800704 Watching for file changes with StatReloader
+2021-11-18 18:18:25,367 INFO autoreload 72550 140646734800704 /home/shosen/projects/shosen_lms/customauth/forms/login_form.py changed, reloading.
+2021-11-18 18:18:25,979 INFO autoreload 72596 139990704744256 Watching for file changes with StatReloader
+2021-11-18 18:18:50,262 INFO autoreload 72596 139990704744256 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:18:50,876 INFO autoreload 72692 140333745350464 Watching for file changes with StatReloader
+2021-11-18 18:21:31,813 INFO autoreload 72692 140333745350464 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:21:32,409 INFO autoreload 72921 140209643886400 Watching for file changes with StatReloader
+2021-11-18 18:21:44,899 ERROR log 72921 140209506391808 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    username=form.cleaned_data['username']
+AttributeError: 'LMSLoginForm' object has no attribute 'cleaned_data'
+2021-11-18 18:21:45,459 WARNING log 72921 140209506391808 Not Found: /favicon.ico
+2021-11-18 18:22:13,353 INFO autoreload 72921 140209643886400 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:22:13,990 INFO autoreload 73081 140246844548928 Watching for file changes with StatReloader
+2021-11-18 18:22:34,125 INFO autoreload 73081 140246844548928 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:22:34,775 INFO autoreload 73177 139669800515392 Watching for file changes with StatReloader
+2021-11-18 18:22:37,423 ERROR log 73177 139669663020800 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    username = form.cleaned_data.get('username')
+AttributeError: 'LMSLoginForm' object has no attribute 'cleaned_data'
+2021-11-18 18:22:47,597 ERROR log 73177 139669663020800 Internal Server Error: /lms/login/
+Traceback (most recent call last):
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/shosen/projects/shosen_lms/customauth/views/login_view.py", line 25, in post
+    username = form.cleaned_data.get('username')
+AttributeError: 'LMSLoginForm' object has no attribute 'cleaned_data'
+2021-11-18 18:22:48,168 WARNING log 73177 139669663020800 Not Found: /favicon.ico
+2021-11-18 18:23:13,580 INFO autoreload 73177 139669800515392 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:23:14,282 INFO autoreload 73338 139901040928576 Watching for file changes with StatReloader
+2021-11-18 18:23:35,354 INFO autoreload 73338 139901040928576 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:23:35,979 INFO autoreload 73458 139630842271552 Watching for file changes with StatReloader
+2021-11-18 18:24:17,574 INFO autoreload 73458 139630842271552 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:24:18,251 INFO autoreload 73557 140712225298240 Watching for file changes with StatReloader
+2021-11-18 18:24:27,854 INFO autoreload 73557 140712225298240 /home/shosen/projects/shosen_lms/customauth/views/login_view.py changed, reloading.
+2021-11-18 18:24:28,494 INFO autoreload 73672 140516812687168 Watching for file changes with StatReloader

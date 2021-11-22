@@ -1,13 +1,15 @@
 from django.urls import path
-from .views import LoginView, logout_view, DashboardView
-
-app_name = 'customauth'
+from .views import LMSLoginView, logout_view, DashboardView
 
 urlpatterns = [
     # authentication urls
-    path('login/', LoginView.as_view(), name='lms_login'),
-    path('login/', logout_view, name='lms_logout'),
+    path('login/', LMSLoginView.as_view(), name='lms_login'),
+    path(
+        'logout/',
+        logout_view,
+        name='lms_logout'
+    ),
 
     # dashboard urls
-    path('dashboard/', DashboardView.as_view(), name='dashboard'),
+    path('dashboard/', DashboardView.as_view(), name='lms_dashboard'),
 ]

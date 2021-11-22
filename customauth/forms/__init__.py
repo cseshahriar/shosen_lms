@@ -1,3 +1,3 @@
-from .login_form import LoginForm
+from .login_form import LMSLoginForm
 
-__all__ = [LoginForm]
+__all__ = [LMSLoginForm]

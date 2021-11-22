@@ -32,7 +32,7 @@ urlpatterns = [
     path('filer/', include('filer.urls')),
 
     # customauth urls
-    path('admin/', include('customauth.urls')),
+    path('lms/', include('customauth.urls')),
 ]
 
 # serve media files in development environment

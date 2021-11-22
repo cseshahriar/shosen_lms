@@ -98,6 +98,7 @@ PLUGIN_APPS = [
     'easy_thumbnails',
     'filer',
     'mptt',
+    'crispy_forms',
 ]
 
 # add project applications here
@@ -106,6 +107,8 @@ PROJECT_APPS = [
     'utilities.apps.UtilitiesConfig',
     'courses.apps.CoursesConfig',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.colorspace',
@@ -160,9 +163,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'  # suppress model warning
 
 WSGI_APPLICATION = 'lms.wsgi.application'
 
-LOGIN_URL = '/auth/login/'
-LOGIN_REDIRECT_URL = 'dashboard'
-LOGOUT_REDIRECT_URL = 'dashboard'
+ADMIN_URL = 'manage'  # do not include any leading/trailing slashes
+
+LOGIN_URL = '/lms/login/'
+LOGIN_REDIRECT_URL = 'lms_dashboard'
+LOGOUT_REDIRECT_URL = 'lms_dashboard'
+
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
@@ -242,9 +248,6 @@ STATICFILES_DIRS = [STATICFILES_DIR, ]  # development environment
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
-
-
-ADMIN_URL = 'lms'  # do not include any leading/trailing slashes
 
 # Logging
 # https://docs.djangoproject.com/en/3.0/topics/logging/
